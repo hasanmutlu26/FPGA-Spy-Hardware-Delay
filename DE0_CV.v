@@ -31,20 +31,29 @@ module DE0_CV(
 //  REG/WIRE declarations
 //=======================================================
 
-wire [31:0] dec5, dec4, dec3, dec2, dec1, dec0;
-
+wire [3:0] dec5, dec4, dec3, dec2, dec1, dec0;
+wire [31:0] result;
+wire startfin;
 
 //=======================================================
 //  Structural coding
 //=======================================================
 
-decToSeg_test gg(dec5, dec4, dec3, dec2, dec1, dec0, CLOCK_50);
-display g0(HEX0, dec0[3:0]);
-display g1(HEX1, dec1[3:0]);
-display g2(HEX2, dec2[3:0]);
-display g3(HEX3, dec3[3:0]);
-display g4(HEX4, dec4[3:0]);
-display g5(HEX5, dec5[3:0]);
+
+delay(result, startfin, 1'b1, CLOCK_50);
+decimal_to_7seg(dec5, dec4, dec3, dec2, dec1, dec0, result, startfin, CLOCK_50);
+//decToSeg_test t(dec5, dec4, dec3, dec2, dec1, dec0, CLOCK_50);
+
+
+//wire N411, N8076;
+//singlepath_plode(N411, N8076);
+
+display g0(HEX0, dec0);
+display g1(HEX1, dec1);
+display g2(HEX2, dec2);
+display g3(HEX3, dec3);
+display g4(HEX4, dec4);
+display g5(HEX5, dec5);
 
 
 

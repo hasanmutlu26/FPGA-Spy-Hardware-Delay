@@ -5,6 +5,10 @@ output [31:0] val;
 
 reg [31:0] memory;
 
+initial begin
+memory = 32'b0;
+end
+
 always @(posedge clk)
 begin
 if(ld)
