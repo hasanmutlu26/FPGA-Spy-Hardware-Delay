@@ -40,8 +40,8 @@ wire startfin;
 //=======================================================
 
 
-delay(result, startfin, 1'b1, CLOCK_50);
-decimal_to_7seg(dec5, dec4, dec3, dec2, dec1, dec0, result, startfin, CLOCK_50);
+delay d0(result, startfin, 1'b1, CLOCK_50);
+decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, startfin, CLOCK_50);
 //decToSeg_test t(dec5, dec4, dec3, dec2, dec1, dec0, CLOCK_50);
 
 

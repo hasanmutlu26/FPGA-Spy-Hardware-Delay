@@ -16,7 +16,9 @@ end
 
 always @ (posedge clk)
 begin
+if(pathResult == 1 || pathResult == 0) begin
 R <= pathResult;
+end
 end
 
 endmodule
