@@ -125,12 +125,252 @@
 # Top level modules:
 # 	singlepath_plode
 # 
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_2x1MUX.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module _32bit_2x1MUX
+# 
+# Top level modules:
+# 	_32bit_2x1MUX
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_ADD.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module _32bit_ADD
+# 
+# Top level modules:
+# 	_32bit_ADD
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_DIV.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module _32bit_DIV
+# 
+# Top level modules:
+# 	_32bit_DIV
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_DIV_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module _32bit_DIV_testbench
+# 
+# Top level modules:
+# 	_32bit_DIV_testbench
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_OR.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module _32bit_OR
+# 
+# Top level modules:
+# 	_32bit_OR
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_REG.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module _32bit_REG
+# 
+# Top level modules:
+# 	_32bit_REG
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_SLT.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module _32bit_SLT
+# 
+# Top level modules:
+# 	_32bit_SLT
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_SUB.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module _32bit_SUB
+# 
+# Top level modules:
+# 	_32bit_SUB
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_XOR.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module _32bit_XOR
+# 
+# Top level modules:
+# 	_32bit_XOR
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DE0_CV.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DE0_CV
+# 
+# Top level modules:
+# 	DE0_CV
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/decimal_to_7seg.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module decimal_to_7seg
+# 
+# Top level modules:
+# 	decimal_to_7seg
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/decToSeg_test.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module decToSeg_test
+# 
+# Top level modules:
+# 	decToSeg_test
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/decToSeg_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module decToSeg_testbench
+# 
+# Top level modules:
+# 	decToSeg_testbench
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module delay
+# 
+# Top level modules:
+# 	delay
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay_control.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module delay_control
+# 
+# Top level modules:
+# 	delay_control
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay_datapath.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module delay_datapath
+# 
+# Top level modules:
+# 	delay_datapath
 vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay_testbench.v
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module delay_testbench
 # 
 # Top level modules:
 # 	delay_testbench
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/display.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module display
+# 
+# Top level modules:
+# 	display
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DIV_control.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DIV_control
+# 
+# Top level modules:
+# 	DIV_control
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DIV_datpath.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DIV_datpath
+# 
+# Top level modules:
+# 	DIV_datpath
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DIV_test.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DIV_test
+# 
+# Top level modules:
+# 	DIV_test
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/full_adder.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/half_adder.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module half_adder
+# 
+# Top level modules:
+# 	half_adder
+vlog -reportprogress 300 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/path1.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module path1
+# 
+# Top level modules:
+# 	path1
+vlog -reportprogress 30 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/path1_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module path1_testbench
+# 
+# Top level modules:
+# 	path1_testbench
+vlog -reportprogress 30 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/path2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module path2
+# 
+# Top level modules:
+# 	path2
+vlog -reportprogress 30 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module singlepath_plode
+# 
+# Top level modules:
+# 	singlepath_plode
+vlog -reportprogress 30 -work work C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module singlepath_plode_testbench
+# 
+# Top level modules:
+# 	singlepath_plode_testbench
+vsim work.singlepath_plode_testbench
+# vsim work.singlepath_plode_testbench 
+# Loading work.singlepath_plode_testbench
+# Loading work.singlepath_plode
+# ** Warning: (vsim-3017) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Too few port connections. Expected 33, found 4.
+# 
+#         Region: /singlepath_plode_testbench/t
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's1'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's2'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's3'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's4'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's5'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's6'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's7'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's8'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's9'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's10'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's11'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's12'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's13'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's14'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's15'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's16'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's17'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's18'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's19'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's20'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's21'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's22'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's23'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's24'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's25'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's26'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's27'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's28'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v(5): [TFMPC] - Missing connection for port 's29'.
+# 
+add wave -position end  sim:/singlepath_plode_testbench/clk
+add wave -position end  sim:/singlepath_plode_testbench/N8076
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Lenovo  Hostname: LAPTOP-SC6B7OEB  ProcessID: 4512
+# 
+#           Attempting to use alternate WLF file "./wlftykx7ww".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftykx7ww
+# 
+run
+quit -sim
 vsim work.delay_testbench
 # vsim work.delay_testbench 
 # Loading work.delay_testbench
@@ -6340,7 +6580,21 @@ add wave -position end  sim:/delay_testbench/dec1
 add wave -position end  sim:/delay_testbench/dec0
 add wave -position end  sim:/delay_testbench/clk
 add wave -position end  sim:/delay_testbench/in
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Lenovo  Hostname: LAPTOP-SC6B7OEB  ProcessID: 4512
+# 
+#           Attempting to use alternate WLF file "./wlft8z1bxe".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft8z1bxe
+# 
 run
+add wave -position end  sim:/delay_testbench/d0/dc/pathResult
+add wave -position end  sim:/delay_testbench/d0/dc/clk
+add wave -position end  sim:/delay_testbench/d0/dc/ld
+add wave -position end  sim:/delay_testbench/d0/dc/fin
+add wave -position end  sim:/delay_testbench/d0/dc/R
 add wave -position end  sim:/delay_testbench/d0/dd/ld
 add wave -position end  sim:/delay_testbench/d0/dd/clk
 add wave -position end  sim:/delay_testbench/d0/dd/in
@@ -6447,8 +6701,6 @@ add wave -position end  sim:/delay_testbench/d0/dd/result96
 add wave -position end  sim:/delay_testbench/d0/dd/result97
 add wave -position end  sim:/delay_testbench/d0/dd/result98
 add wave -position end  sim:/delay_testbench/d0/dd/result99
-run
-# Break key hit 
 restart -f
 # ** Warning: (vsim-3017) C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay_datapath.v(10): [TFMPC] - Too few port connections. Expected 33, found 4.
 # 

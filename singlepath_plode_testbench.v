@@ -1,15 +1,18 @@
 module singlepath_plode_testbench();
-reg N411;
+reg clk;
 wire N8076;
 
-singlepath_plode t(N411, N8076);
+singlepath_plode t(N8076, clk, 1'b1, 1'b0);
 
 initial begin
-N411 = 1'b1;
-#50;
-N411 = 1'b0;
-#50;
-N411 = 1'b1;
+clk = 0;
+end
+
+initial begin 
+	forever begin
+	#10000; 
+	clk = ~clk;
+	end 
 end
 
 endmodule

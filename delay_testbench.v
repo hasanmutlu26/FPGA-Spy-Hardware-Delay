@@ -15,7 +15,7 @@ end
 
 initial begin 
 	forever begin
-	#20; 
+	#10000; 
 	clk = ~clk;
 	end 
 end
