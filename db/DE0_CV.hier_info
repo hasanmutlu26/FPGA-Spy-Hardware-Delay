@@ -1,51 +1,51 @@
 |DE0_CV
-CLOCK_50 => CLOCK_50.IN2
+CLOCK_50 => ~NO_FANOUT~
 CLOCK2_50 => ~NO_FANOUT~
 CLOCK3_50 => ~NO_FANOUT~
 CLOCK4_50 <> <UNC>
-HEX0[0] << display:g0.port0
-HEX0[1] << display:g0.port0
-HEX0[2] << display:g0.port0
-HEX0[3] << display:g0.port0
-HEX0[4] << display:g0.port0
-HEX0[5] << display:g0.port0
-HEX0[6] << display:g0.port0
-HEX1[0] << display:g1.port0
-HEX1[1] << display:g1.port0
-HEX1[2] << display:g1.port0
-HEX1[3] << display:g1.port0
-HEX1[4] << display:g1.port0
-HEX1[5] << display:g1.port0
-HEX1[6] << display:g1.port0
-HEX2[0] << display:g2.port0
-HEX2[1] << display:g2.port0
-HEX2[2] << display:g2.port0
-HEX2[3] << display:g2.port0
-HEX2[4] << display:g2.port0
-HEX2[5] << display:g2.port0
-HEX2[6] << display:g2.port0
-HEX3[0] << display:g3.port0
-HEX3[1] << display:g3.port0
-HEX3[2] << display:g3.port0
-HEX3[3] << display:g3.port0
-HEX3[4] << display:g3.port0
-HEX3[5] << display:g3.port0
-HEX3[6] << display:g3.port0
-HEX4[0] << display:g4.port0
-HEX4[1] << display:g4.port0
-HEX4[2] << display:g4.port0
-HEX4[3] << display:g4.port0
-HEX4[4] << display:g4.port0
-HEX4[5] << display:g4.port0
-HEX4[6] << display:g4.port0
-HEX5[0] << display:g5.port0
-HEX5[1] << display:g5.port0
-HEX5[2] << display:g5.port0
-HEX5[3] << display:g5.port0
-HEX5[4] << display:g5.port0
-HEX5[5] << display:g5.port0
-HEX5[6] << display:g5.port0
-SD_CLK << <GND>
+HEX0[0] <= display:g0.port0
+HEX0[1] <= display:g0.port0
+HEX0[2] <= display:g0.port0
+HEX0[3] <= display:g0.port0
+HEX0[4] <= display:g0.port0
+HEX0[5] <= display:g0.port0
+HEX0[6] <= display:g0.port0
+HEX1[0] <= display:g1.port0
+HEX1[1] <= display:g1.port0
+HEX1[2] <= display:g1.port0
+HEX1[3] <= display:g1.port0
+HEX1[4] <= display:g1.port0
+HEX1[5] <= display:g1.port0
+HEX1[6] <= display:g1.port0
+HEX2[0] <= display:g2.port0
+HEX2[1] <= display:g2.port0
+HEX2[2] <= display:g2.port0
+HEX2[3] <= display:g2.port0
+HEX2[4] <= display:g2.port0
+HEX2[5] <= display:g2.port0
+HEX2[6] <= display:g2.port0
+HEX3[0] <= display:g3.port0
+HEX3[1] <= display:g3.port0
+HEX3[2] <= display:g3.port0
+HEX3[3] <= display:g3.port0
+HEX3[4] <= display:g3.port0
+HEX3[5] <= display:g3.port0
+HEX3[6] <= display:g3.port0
+HEX4[0] <= display:g4.port0
+HEX4[1] <= display:g4.port0
+HEX4[2] <= display:g4.port0
+HEX4[3] <= display:g4.port0
+HEX4[4] <= display:g4.port0
+HEX4[5] <= display:g4.port0
+HEX4[6] <= display:g4.port0
+HEX5[0] <= display:g5.port0
+HEX5[1] <= display:g5.port0
+HEX5[2] <= display:g5.port0
+HEX5[3] <= display:g5.port0
+HEX5[4] <= display:g5.port0
+HEX5[5] <= display:g5.port0
+HEX5[6] <= display:g5.port0
+SD_CLK <= <GND>
 SD_CMD <> <UNC>
 SD_DATA[0] <> <UNC>
 SD_DATA[1] <> <UNC>
@@ -53,52 +53,57 @@ SD_DATA[2] <> <UNC>
 SD_DATA[3] <> <UNC>
 
 
-|DE0_CV|delay:d0
-result[0] <= delay_datapath:dd.port0
-result[1] <= delay_datapath:dd.port0
-result[2] <= delay_datapath:dd.port0
-result[3] <= delay_datapath:dd.port0
-result[4] <= delay_datapath:dd.port0
-result[5] <= delay_datapath:dd.port0
-result[6] <= delay_datapath:dd.port0
-result[7] <= delay_datapath:dd.port0
-result[8] <= delay_datapath:dd.port0
-result[9] <= delay_datapath:dd.port0
-result[10] <= delay_datapath:dd.port0
-result[11] <= delay_datapath:dd.port0
-result[12] <= delay_datapath:dd.port0
-result[13] <= delay_datapath:dd.port0
-result[14] <= delay_datapath:dd.port0
-result[15] <= delay_datapath:dd.port0
-result[16] <= delay_datapath:dd.port0
-result[17] <= delay_datapath:dd.port0
-result[18] <= delay_datapath:dd.port0
-result[19] <= delay_datapath:dd.port0
-result[20] <= delay_datapath:dd.port0
-result[21] <= delay_datapath:dd.port0
-result[22] <= delay_datapath:dd.port0
-result[23] <= delay_datapath:dd.port0
-result[24] <= delay_datapath:dd.port0
-result[25] <= delay_datapath:dd.port0
-result[26] <= delay_datapath:dd.port0
-result[27] <= delay_datapath:dd.port0
-result[28] <= delay_datapath:dd.port0
-result[29] <= delay_datapath:dd.port0
-result[30] <= delay_datapath:dd.port0
-result[31] <= delay_datapath:dd.port0
-fin <= delay_control:dc.port1
-in => in.IN1
+|DE0_CV|HightoLow:htl
+result[0] <= delay_datapath:datapath.port0
+result[1] <= delay_datapath:datapath.port0
+result[2] <= delay_datapath:datapath.port0
+result[3] <= delay_datapath:datapath.port0
+result[4] <= delay_datapath:datapath.port0
+result[5] <= delay_datapath:datapath.port0
+result[6] <= delay_datapath:datapath.port0
+result[7] <= delay_datapath:datapath.port0
+result[8] <= delay_datapath:datapath.port0
+result[9] <= delay_datapath:datapath.port0
+result[10] <= delay_datapath:datapath.port0
+result[11] <= delay_datapath:datapath.port0
+result[12] <= delay_datapath:datapath.port0
+result[13] <= delay_datapath:datapath.port0
+result[14] <= delay_datapath:datapath.port0
+result[15] <= delay_datapath:datapath.port0
+result[16] <= delay_datapath:datapath.port0
+result[17] <= delay_datapath:datapath.port0
+result[18] <= delay_datapath:datapath.port0
+result[19] <= delay_datapath:datapath.port0
+result[20] <= delay_datapath:datapath.port0
+result[21] <= delay_datapath:datapath.port0
+result[22] <= delay_datapath:datapath.port0
+result[23] <= delay_datapath:datapath.port0
+result[24] <= delay_datapath:datapath.port0
+result[25] <= delay_datapath:datapath.port0
+result[26] <= delay_datapath:datapath.port0
+result[27] <= delay_datapath:datapath.port0
+result[28] <= delay_datapath:datapath.port0
+result[29] <= delay_datapath:datapath.port0
+result[30] <= delay_datapath:datapath.port0
+result[31] <= delay_datapath:datapath.port0
+fin <= HightoLow_control:control.port2
 CLOCK_50 => CLOCK_50.IN2
 
 
-|DE0_CV|delay:d0|delay_control:dc
-ld <= R.DB_MAX_OUTPUT_PORT_TYPE
-fin <= R.DB_MAX_OUTPUT_PORT_TYPE
-pathResult => R.DATAIN
-clk => R.CLK
+|DE0_CV|HightoLow:htl|HightoLow_control:control
+pathInput <= comb.DB_MAX_OUTPUT_PORT_TYPE
+ld_reg <= comb.DB_MAX_OUTPUT_PORT_TYPE
+fin <= comb.DB_MAX_OUTPUT_PORT_TYPE
+pathResult => WideAnd2.IN2
+pathResult => WideAnd4.IN2
+pathResult => WideAnd3.IN2
+pathResult => WideAnd0.IN2
+pathResult => WideAnd1.IN2
+clk => R[0].CLK
+clk => R[1].CLK
 
 
-|DE0_CV|delay:d0|delay_datapath:dd
+|DE0_CV|HightoLow:htl|delay_datapath:datapath
 result[0] <= result[0].DB_MAX_OUTPUT_PORT_TYPE
 result[1] <= result[1].DB_MAX_OUTPUT_PORT_TYPE
 result[2] <= result[2].DB_MAX_OUTPUT_PORT_TYPE
@@ -133,11 +138,11 @@ result[30] <= result[30].DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= result[31].DB_MAX_OUTPUT_PORT_TYPE
 pathResult <= singlepath_plode:p100.port0
 ld => ld.IN1
-in => ~NO_FANOUT~
+pathInput => pathInput.IN1
 clk => clk.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p0
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p0
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -173,7 +178,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p1
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p1
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -209,7 +214,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p2
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p2
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -245,7 +250,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p3
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p3
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -281,7 +286,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p4
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p4
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -317,7 +322,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p5
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p5
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -353,7 +358,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p6
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p6
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -389,7 +394,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p7
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p7
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -425,7 +430,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p8
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p8
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -461,7 +466,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p9
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p9
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -497,7 +502,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p10
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p10
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -533,7 +538,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p11
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p11
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -569,7 +574,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p12
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p12
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -605,7 +610,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p13
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p13
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -641,7 +646,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p14
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p14
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -677,7 +682,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p15
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p15
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -713,7 +718,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p16
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p16
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -749,7 +754,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p17
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p17
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -785,7 +790,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p18
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p18
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -821,7 +826,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p19
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p19
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -857,7 +862,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p20
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p20
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -893,7 +898,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p21
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p21
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -929,7 +934,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p22
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p22
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -965,7 +970,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p23
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p23
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1001,7 +1006,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p24
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p24
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1037,7 +1042,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p25
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p25
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1073,7 +1078,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p26
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p26
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1109,7 +1114,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p27
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p27
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1145,7 +1150,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p28
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p28
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1181,7 +1186,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p29
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p29
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1217,7 +1222,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p30
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p30
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1253,7 +1258,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p31
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p31
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1289,7 +1294,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p32
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p32
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1325,7 +1330,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p33
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p33
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1361,7 +1366,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p34
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p34
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1397,7 +1402,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p35
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p35
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1433,7 +1438,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p36
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p36
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1469,7 +1474,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p37
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p37
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1505,7 +1510,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p38
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p38
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1541,7 +1546,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p39
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p39
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1577,7 +1582,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p40
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p40
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1613,7 +1618,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p41
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p41
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1649,7 +1654,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p42
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p42
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1685,7 +1690,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p43
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p43
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1721,7 +1726,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p44
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p44
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1757,7 +1762,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p45
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p45
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1793,7 +1798,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p46
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p46
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1829,7 +1834,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p47
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p47
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1865,7 +1870,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p48
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p48
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1901,7 +1906,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p49
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p49
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1937,7 +1942,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p50
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p50
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -1973,7 +1978,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p51
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p51
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2009,7 +2014,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p52
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p52
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2045,7 +2050,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p53
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p53
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2081,7 +2086,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p54
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p54
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2117,7 +2122,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p55
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p55
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2153,7 +2158,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p56
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p56
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2189,7 +2194,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p57
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p57
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2225,7 +2230,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p58
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p58
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2261,7 +2266,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p59
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p59
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2297,7 +2302,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p60
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p60
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2333,7 +2338,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p61
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p61
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2369,7 +2374,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p62
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p62
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2405,7 +2410,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p63
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p63
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2441,7 +2446,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p64
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p64
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2477,7 +2482,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p65
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p65
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2513,7 +2518,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p66
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p66
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2549,7 +2554,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p67
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p67
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2585,7 +2590,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p68
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p68
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2621,7 +2626,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p69
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p69
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2657,7 +2662,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p70
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p70
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2693,7 +2698,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p71
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p71
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2729,7 +2734,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p72
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p72
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2765,7 +2770,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p73
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p73
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2801,7 +2806,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p74
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p74
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2837,7 +2842,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p75
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p75
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2873,7 +2878,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p76
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p76
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2909,7 +2914,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p77
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p77
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2945,7 +2950,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p78
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p78
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -2981,7 +2986,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p79
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p79
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3017,7 +3022,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p80
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p80
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3053,7 +3058,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p81
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p81
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3089,7 +3094,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p82
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p82
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3125,7 +3130,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p83
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p83
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3161,7 +3166,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p84
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p84
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3197,7 +3202,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p85
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p85
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3233,7 +3238,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p86
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p86
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3269,7 +3274,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p87
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p87
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3305,7 +3310,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p88
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p88
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3341,7 +3346,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p89
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p89
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3377,7 +3382,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p90
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p90
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3413,7 +3418,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p91
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p91
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3449,7 +3454,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p92
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p92
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3485,7 +3490,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p93
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p93
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3521,7 +3526,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p94
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p94
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3557,7 +3562,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p95
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p95
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3593,7 +3598,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p96
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p96
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3629,7 +3634,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p97
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p97
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3665,7 +3670,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p98
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p98
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3701,7 +3706,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p99
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p99
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3737,7 +3742,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|singlepath_plode:p100
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|singlepath_plode:p100
 N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
 N411 => N411~buf0.DATAIN
 VCC => VCC~buf0.DATAIN
@@ -3773,7 +3778,7 @@ s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
 s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_REG:r
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_REG:r
 val[0] <= memory[0].DB_MAX_OUTPUT_PORT_TYPE
 val[1] <= memory[1].DB_MAX_OUTPUT_PORT_TYPE
 val[2] <= memory[2].DB_MAX_OUTPUT_PORT_TYPE
@@ -3904,7 +3909,7 @@ clk => memory[30].CLK
 clk => memory[31].CLK
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a
 result[0] <= full_adder:FA0.port0
 result[1] <= full_adder:FA1.port0
 result[2] <= full_adder:FA2.port0
@@ -4004,7 +4009,7 @@ B[31] => B[31].IN1
 C0 => C0.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA0
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA0
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4012,7 +4017,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA0|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA0|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4021,7 +4026,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA0|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA0|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4030,7 +4035,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA1
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA1
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4038,7 +4043,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA1|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA1|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4047,7 +4052,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA1|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA1|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4056,7 +4061,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA2
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA2
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4064,7 +4069,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA2|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA2|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4073,7 +4078,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA2|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA2|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4082,7 +4087,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA3
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA3
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4090,7 +4095,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA3|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA3|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4099,7 +4104,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA3|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA3|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4108,7 +4113,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA4
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA4
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4116,7 +4121,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA4|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA4|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4125,7 +4130,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA4|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA4|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4134,7 +4139,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA5
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA5
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4142,7 +4147,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA5|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA5|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4151,7 +4156,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA5|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA5|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4160,7 +4165,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA6
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA6
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4168,7 +4173,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA6|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA6|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4177,7 +4182,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA6|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA6|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4186,7 +4191,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA7
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA7
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4194,7 +4199,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA7|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA7|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4203,7 +4208,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA7|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA7|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4212,7 +4217,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA8
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA8
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4220,7 +4225,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA8|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA8|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4229,7 +4234,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA8|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA8|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4238,7 +4243,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA9
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA9
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4246,7 +4251,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA9|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA9|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4255,7 +4260,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA9|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA9|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4264,7 +4269,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA10
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA10
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4272,7 +4277,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA10|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA10|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4281,7 +4286,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA10|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA10|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4290,7 +4295,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA11
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA11
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4298,7 +4303,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA11|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA11|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4307,7 +4312,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA11|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA11|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4316,7 +4321,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA12
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA12
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4324,7 +4329,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA12|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA12|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4333,7 +4338,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA12|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA12|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4342,7 +4347,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA13
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA13
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4350,7 +4355,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA13|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA13|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4359,7 +4364,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA13|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA13|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4368,7 +4373,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA14
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA14
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4376,7 +4381,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA14|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA14|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4385,7 +4390,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA14|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA14|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4394,7 +4399,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA15
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA15
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4402,7 +4407,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA15|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA15|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4411,7 +4416,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA15|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA15|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4420,7 +4425,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA16
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA16
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4428,7 +4433,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA16|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA16|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4437,7 +4442,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA16|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA16|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4446,7 +4451,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA17
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA17
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4454,7 +4459,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA17|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA17|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4463,7 +4468,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA17|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA17|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4472,7 +4477,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA18
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA18
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4480,7 +4485,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA18|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA18|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4489,7 +4494,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA18|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA18|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4498,7 +4503,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA19
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA19
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4506,7 +4511,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA19|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA19|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4515,7 +4520,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA19|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA19|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4524,7 +4529,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA20
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA20
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4532,7 +4537,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA20|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA20|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4541,7 +4546,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA20|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA20|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4550,7 +4555,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA21
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA21
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4558,7 +4563,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA21|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA21|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4567,7 +4572,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA21|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA21|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4576,7 +4581,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA22
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA22
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4584,7 +4589,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA22|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA22|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4593,7 +4598,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA22|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA22|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4602,7 +4607,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA23
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA23
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4610,7 +4615,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA23|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA23|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4619,7 +4624,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA23|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA23|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4628,7 +4633,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA24
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA24
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4636,7 +4641,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA24|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA24|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4645,7 +4650,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA24|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA24|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4654,7 +4659,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA25
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA25
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4662,7 +4667,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA25|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA25|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4671,7 +4676,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA25|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA25|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4680,7 +4685,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA26
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA26
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4688,7 +4693,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA26|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA26|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4697,7 +4702,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA26|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA26|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4706,7 +4711,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA27
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA27
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4714,7 +4719,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA27|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA27|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4723,7 +4728,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA27|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA27|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4732,7 +4737,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA28
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA28
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4740,7 +4745,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA28|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA28|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4749,7 +4754,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA28|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA28|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4758,7 +4763,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA29
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA29
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4766,7 +4771,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA29|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA29|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4775,7 +4780,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA29|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA29|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4784,7 +4789,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA30
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA30
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4792,7 +4797,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA30|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA30|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4801,7 +4806,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA30|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA30|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4810,7 +4815,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA31
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA31
 sum <= half_adder:second_sum.port0
 carry_out <= final_carry_out.DB_MAX_OUTPUT_PORT_TYPE
 a => a.IN1
@@ -4818,7 +4823,7 @@ b => b.IN1
 carry_in => carry_in.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA31|half_adder:first_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA31|half_adder:first_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0
@@ -4827,7 +4832,7 @@ b => sum_of_digits.IN1
 b => carry_of_sum.IN1
 
 
-|DE0_CV|delay:d0|delay_datapath:dd|_32bit_ADD:a|full_adder:FA31|half_adder:second_sum
+|DE0_CV|HightoLow:htl|delay_datapath:datapath|_32bit_ADD:a|full_adder:FA31|half_adder:second_sum
 sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
 carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
 a => sum_of_digits.IN0

@@ -4,7 +4,7 @@ K3
 cModel Technology
 Z0 dC:\Users\Lenovo\Documents\GitHub\FPGA-Spy-Hardware-Delay\simulation\modelsim
 v_32bit_2x1MUX
-IZUFd;j;QEJ^4RABHgh>U^0
+IFm8J?:Y>Ok5c@=TL`fl1c3
 Vd<^7Mc>TTi=@L_GEdE_zc3
 Z1 dC:\Users\Lenovo\Documents\GitHub\FPGA-Spy-Hardware-Delay\simulation\modelsim
 w1667641473
@@ -14,17 +14,18 @@ L0 1
 Z2 OV;L;10.1d;51
 r1
 31
-Z3 o-work work -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay -O0
 n@_32bit_2x1@m@u@x
 !i10b 1
 !s100 0?^ZUaGiNL6U6oKGBnQg=0
 !s85 0
-!s108 1670222866.181000
+!s108 1670227744.504000
 !s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_2x1MUX.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_2x1MUX.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_2x1MUX.v|
 !s101 -O0
 v_32bit_ADD
-I8z6:bleYj^ReoHSGaB;`L1
+I?fn3EjD4QzZc0Z0TMdU=>0
 VQSG^hTJ?k:=d><m5[i^j23
 R1
 w1667641369
@@ -35,16 +36,17 @@ R2
 r1
 31
 R3
+R4
 n@_32bit_@a@d@d
 !i10b 1
 !s100 V3LH^]mz9aZUYbTh2_XM02
 !s85 0
-!s108 1670222866.331000
+!s108 1670227744.148000
 !s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_ADD.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_ADD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_ADD.v|
 !s101 -O0
 v_32bit_DIV
-Io?z4L7]kKUARi1lmGd;Hb3
+IP4P_U=G0U:iObFiWP]olO1
 VcQ]XV3jL8LAnHinW;]F3n1
 R1
 w1667725304
@@ -55,36 +57,17 @@ R2
 r1
 31
 R3
+R4
 n@_32bit_@d@i@v
 !i10b 1
 !s100 EXCgiJ>:aNKZDLIK1YReF1
 !s85 0
-!s108 1670222866.387000
+!s108 1670227744.563000
 !s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_DIV.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_DIV.v|
-!s101 -O0
-v_32bit_DIV_testbench
-IID>:73kbz:Y4GBhS=NP`?3
-V9?Chmh8nUCgXQkH]0G7UI0
-R1
-w1667727572
-8C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_DIV_testbench.v
-FC:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_DIV_testbench.v
-L0 1
-R2
-r1
-31
-R3
-n@_32bit_@d@i@v_testbench
-!i10b 1
-!s100 :O`<1[ahSQRjA1h6Den][0
-!s85 0
-!s108 1670222866.447000
-!s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_DIV_testbench.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_DIV_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_DIV.v|
 !s101 -O0
 v_32bit_OR
-IEHebfNlWPEE>T09Khc8Nl2
+IRNzTEQ<e;:Y1a6oEKH71M0
 VLn:?PM5HFTaFX[i3i;hNm3
 R1
 w1667641437
@@ -95,16 +78,17 @@ R2
 r1
 31
 R3
+R4
 n@_32bit_@o@r
 !i10b 1
 !s100 9DdhcQjlUP;nX5<Z=^D:a1
 !s85 0
-!s108 1670222866.510000
+!s108 1670227744.389000
 !s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_OR.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_OR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_OR.v|
 !s101 -O0
 v_32bit_REG
-I]]o3>PlQ3g0?Be0`RYfdS3
+III^7YQDVVMlgMJ`UbP=U62
 Ve@PNSGTKB[go6EDe4XFmI0
 R1
 w1669285047
@@ -115,16 +99,17 @@ R2
 r1
 31
 R3
+R4
 n@_32bit_@r@e@g
 !i10b 1
 !s100 J17VHO97]7NOJGXL_KRfJ1
 !s85 0
-!s108 1670222866.570000
+!s108 1670227744.325000
 !s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_REG.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_REG.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_REG.v|
 !s101 -O0
 v_32bit_SLT
-I=4]YPQ2X`dfBG4Q8Ub`9z0
+IOo>l_IfR37NPU076QMmN<2
 V_jPdZ8jDC`kdK>Hk]183N3
 R1
 w1667644176
@@ -135,16 +120,17 @@ R2
 r1
 31
 R3
+R4
 n@_32bit_@s@l@t
 !i10b 1
 !s100 Efod=]LKLNE?HfhABaA]d0
 !s85 0
-!s108 1670222866.634000
+!s108 1670227744.443000
 !s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_SLT.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_SLT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_SLT.v|
 !s101 -O0
 v_32bit_SUB
-IJIlzoDCWU`;dONX`^CF[m0
+IIdd7l2@1[0C6Q8JbIX``V1
 VKU0DZYFDzC^LIHWE@N=zz2
 R1
 w1667641346
@@ -156,15 +142,16 @@ r1
 31
 R3
 n@_32bit_@s@u@b
+R4
 !i10b 1
 !s100 SQ1a?7Ah`PmkNL?=GfV<S2
 !s85 0
-!s108 1670222866.696000
+!s108 1670227744.022000
 !s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_SUB.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_SUB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_SUB.v|
 !s101 -O0
 v_32bit_XOR
-IGEnWCA]>1=1c[Cmdf;X=43
+I7J=@O=93jE7BmIWi5h_4]3
 VWlJEg2KKUbh_nJ>LlDm[e0
 R1
 w1667641356
@@ -175,16 +162,17 @@ R2
 r1
 31
 R3
+R4
 n@_32bit_@x@o@r
 !i10b 1
 !s100 A_=OIbDLE5@IA?fb?2XMJ2
 !s85 0
-!s108 1670222866.756000
+!s108 1670227744.084000
 !s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_XOR.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_XOR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_XOR.v|
 !s101 -O0
 vDE0_CV
-IF1fzHcA`WkPn9>COZMA0>2
+I9PLdlHWTW=cai=:^@L<gF2
 VALOeC_=0HJjMoo52YMDI31
 R1
 w1669884870
@@ -195,16 +183,17 @@ R2
 r1
 31
 R3
+R4
 n@d@e0_@c@v
 !i10b 1
 !s100 o5oT:CFDY501gG5DjfeHR0
 !s85 0
-!s108 1670222866.811000
+!s108 1670227744.881000
 !s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DE0_CV.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DE0_CV.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DE0_CV.v|
 !s101 -O0
 vdecimal_to_7seg
-IF=[U[9PY<YJ?eOb<CXOYg2
+IRNbkYQcUU2Rd?D?QNa5EB1
 V1mHKD:5S4VF^`I_gFd=U]2
 R1
 w1669358637
@@ -215,55 +204,16 @@ R2
 r1
 31
 R3
+R4
 !i10b 1
 !s100 mAXSAen_>_nKg5n^ZbAl_3
 !s85 0
-!s108 1670222866.867000
+!s108 1670227744.813000
 !s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/decimal_to_7seg.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/decimal_to_7seg.v|
-!s101 -O0
-vdecToSeg_test
-IQh9nJc^Df;[AQhK=R4H7@0
-V^bU<T0VD;9X2[7<b`oNkf1
-R1
-w1669282361
-8C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/decToSeg_test.v
-FC:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/decToSeg_test.v
-L0 1
-R2
-r1
-31
-R3
-ndec@to@seg_test
-!i10b 1
-!s100 ;d>[inc4XelV=M[oBijE<3
-!s85 0
-!s108 1670222866.925000
-!s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/decToSeg_test.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/decToSeg_test.v|
-!s101 -O0
-vdecToSeg_testbench
-I9XGD`FJ39n1adNHkA0?;m2
-V4S@j1f9XLe:NBK;<9B^FV2
-R1
-w1669359082
-8C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/decToSeg_testbench.v
-FC:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/decToSeg_testbench.v
-L0 1
-R2
-r1
-31
-R3
-ndec@to@seg_testbench
-!i10b 1
-!s100 nR1L1Q`Q4H35`7S[PS1KK3
-!s85 0
-!s108 1670222866.985000
-!s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/decToSeg_testbench.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/decToSeg_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/decimal_to_7seg.v|
 !s101 -O0
 vdelay
-IR[hPAILYYR4ikDkBBKXG[1
+ID8lIcacI2T7_O3L33CI:h1
 V358=1zXQK89XC>=V]Ye;40
 R1
 w1669883539
@@ -274,15 +224,16 @@ R2
 r1
 31
 R3
+R4
 !i10b 1
 !s100 ffT:f>abBHVhc;g?5o5UB3
 !s85 0
-!s108 1670222867.044000
+!s108 1670227745.079000
 !s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay.v|
 !s101 -O0
 vdelay_control
-IjeoC]dML0DoPc;G0e1RzZ1
+I7j@ZFf9nNlb4V2jWGlYOC2
 Vn7NWnZPMjlnCe:4Q:?jE=3
 R1
 w1670053968
@@ -293,18 +244,19 @@ R2
 r1
 31
 R3
+R4
 !i10b 1
 !s100 QN9EE;9YBPm[0lkc9C7OE0
 !s85 0
-!s108 1670222867.104000
+!s108 1670227744.944000
 !s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay_control.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay_control.v|
 !s101 -O0
 vdelay_datapath
-I:][^HFSknkae_=Z6L<9kY2
-V6n_>3RjVoW2eK0:AXn:Nm2
+I<K]zdzI=@Z[`Qll<lP6LA1
+V9JjVNSkfXZV7CIRCohKZ32
 R1
-w1670054328
+w1670227194
 8C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay_datapath.v
 FC:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay_datapath.v
 L0 1
@@ -312,34 +264,16 @@ R2
 r1
 31
 R3
+R4
 !i10b 1
-!s100 4Li64VBXHQ7ZHaX5cZ7:g1
+!s100 ]Teb:]MR4gD^`2liM9jBj0
 !s85 0
-!s108 1670222867.169000
+!s108 1670227745.015000
 !s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay_datapath.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay_datapath.v|
-!s101 -O0
-vdelay_testbench
-IRW@i`dAEG:cUK4Yfj;Vek3
-V_Z1YzkaaLekM^>_F=IPg:0
-R1
-w1670056267
-8C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay_testbench.v
-FC:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay_testbench.v
-L0 1
-R2
-r1
-31
-R3
-!i10b 1
-!s100 LdYSN1a;L7dFBi5WTF`5T3
-!s85 0
-!s108 1670222867.231000
-!s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay_testbench.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay_datapath.v|
 !s101 -O0
 vdisplay
-InLT5JWf@A>3Li05QcN@k;1
+I<Pa3ko`1L=dLI[g78iJLf1
 VihBMo4j``=XjM[=?EAXGB1
 R1
 w1667725857
@@ -350,15 +284,16 @@ R2
 r1
 31
 R3
+R4
 !i10b 1
 !s100 <h9FFdNNf5>F0=VhV^ZQA2
 !s85 0
-!s108 1670222867.292000
+!s108 1670227744.754000
 !s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/display.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/display.v|
 !s101 -O0
 vDIV_control
-Ikh88Fjb4]n9i@P0OaVCUl2
+Ii9f<QL1ofcl53lPdLY]Hf0
 VI3mkf?H19IbUPmhz2`jZa0
 R1
 w1667929573
@@ -369,16 +304,17 @@ R2
 r1
 31
 R3
+R4
 n@d@i@v_control
 !i10b 1
 !s100 4od@47`^?R5G?lz<mj;Jk0
 !s85 0
-!s108 1670222867.348000
+!s108 1670227744.689000
 !s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DIV_control.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DIV_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DIV_control.v|
 !s101 -O0
 vDIV_datpath
-IjWZek4_Fi@T[IDWzM3GCJ3
+I6lg8>X;;7FVAU`3zB=4WL0
 VEYzA_2m<P6U]`B1dFUjz03
 R1
 w1667725393
@@ -389,36 +325,17 @@ R2
 r1
 31
 R3
+R4
 n@d@i@v_datpath
 !i10b 1
 !s100 A9:N_M`n94oUFJ6[5XUib2
 !s85 0
-!s108 1670222867.403000
+!s108 1670227744.630000
 !s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DIV_datpath.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DIV_datpath.v|
-!s101 -O0
-vDIV_test
-IY9ST5C^Sn0:Kkdba]e8iC2
-VRblkf?8YJNF:enJQ7Jj`J1
-R1
-w1667728193
-8C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DIV_test.v
-FC:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DIV_test.v
-L0 1
-R2
-r1
-31
-R3
-n@d@i@v_test
-!i10b 1
-!s100 _:dZeeiGO;PjP`@5<QT321
-!s85 0
-!s108 1670222867.460000
-!s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DIV_test.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DIV_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DIV_datpath.v|
 !s101 -O0
 vfull_adder
-IT:mHJM9_?jHfWZ;fMmaJ43
+IX4m:i0_HVncJS?6I_[o3W3
 VRYP>nD9R>G8ML@J?Oi=:32
 R1
 w1667641380
@@ -429,15 +346,16 @@ R2
 r1
 31
 R3
+R4
 !i10b 1
 !s100 l6?@I;TJA7ddno@nL5A<m0
 !s85 0
-!s108 1670222867.523000
+!s108 1670227744.207000
 !s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/full_adder.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/full_adder.v|
 !s101 -O0
 vhalf_adder
-IXk=K39X?5G<7Yb6dW7in]3
+IN_5__`NidDo@<[852DbJ@0
 VUANSHBM`n;lleGcSze4Z^1
 R1
 w1670053598
@@ -448,72 +366,76 @@ R2
 r1
 31
 R3
+R4
 !i10b 1
 !s100 m[:`j7I]mhFfi1:J2YX`z3
 !s85 0
-!s108 1670222867.585000
+!s108 1670227744.265000
 !s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/half_adder.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/half_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/half_adder.v|
 !s101 -O0
-vpath1
-InoY[ikSVh=8eH78I4W[KL2
-VY@:o:HcUC1m76`UORBaY<2
+vHightoLow
+IQ`n3aZcK]To6o9SoA<g[E0
+VlDYA7QBOob=fl>DoegIW`2
 R1
-w1669362097
-8C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/path1.v
-FC:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/path1.v
+w1670227342
+8C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/HightoLow.v
+FC:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/HightoLow.v
 L0 1
 R2
 r1
 31
-R3
+Z5 o-work work -O0
+n@highto@low
 !i10b 1
-!s100 @3[IVfFQS`z=eJU?Q_z3@1
+!s100 2EE6C:gkAfJf^o7RB@:cL2
 !s85 0
-!s108 1670222867.649000
-!s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/path1.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/path1.v|
+!s108 1670227755.744000
+!s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/HightoLow.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/HightoLow.v|
 !s101 -O0
-vpath1_testbench
-IX12@FUmll<e_G9W^B`f:c2
-V;l7J=lHKS7a`<XCO3YBjQ2
+vHightoLow_control
+I`Q9<iA?3d_1aG:`oX<^[B3
+VB5d6ZmgUlCQT<@0JeOkNJ1
 R1
-w1669284173
-8C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/path1_testbench.v
-FC:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/path1_testbench.v
+w1670228253
+8C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/HightoLow_control.v
+FC:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/HightoLow_control.v
 L0 1
 R2
 r1
 31
-R3
+R5
+n@highto@low_control
 !i10b 1
-!s100 U=E1M[5GPX?_=`VU1YT>K1
+!s100 :c4iQ2Wa_?D]g0g9>8LDZ2
 !s85 0
-!s108 1670222867.729000
-!s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/path1_testbench.v|
-!s90 -reportprogress|30|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/path1_testbench.v|
+!s108 1670228261.871000
+!s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/HightoLow_control.v|
+!s90 -reportprogress|300|-work|work|-O0|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/HightoLow_control.v|
 !s101 -O0
-vpath2
-I@<6;A;;MCQ21[O0HF3LiL1
-VNEz6nGeC:o2=g`UlfiBbd0
+vHightoLow_testbench
+!i10b 1
+!s100 EX=T^ozoZWd>5U_J=:D;e0
+IJcaY:GFMSQRen[>CWTJ6>1
+VD[XcCLXB]mbPN5WYK;XAD2
 R1
-w1669297818
-8C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/path2.v
-FC:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/path2.v
+w1670230045
+8C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/HightoLow_testbench.v
+FC:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/HightoLow_testbench.v
 L0 1
 R2
 r1
-31
-R3
-!i10b 1
-!s100 8_aLkj;AOnA69dXVk]T;S3
 !s85 0
-!s108 1670222867.796000
-!s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/path2.v|
-!s90 -reportprogress|30|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/path2.v|
+31
+!s108 1670230060.824000
+!s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/HightoLow_testbench.v|
+!s90 -reportprogress|300|-work|work|-O0|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/HightoLow_testbench.v|
 !s101 -O0
+R5
+n@highto@low_testbench
 vsinglepath_plode
-IghL5XN5`]n;W[4WFi1WM;3
+IGU78jRFYIW_jm:I8Ham9=3
 VE^_ekWeULQ6=VhXcF;[bJ3
 R1
 w1670053764
@@ -524,29 +446,11 @@ R2
 r1
 31
 R3
+R4
 !i10b 1
 !s100 f=gINA@?D_zTKU7iQmoKg2
 !s85 0
-!s108 1670222867.883000
+!s108 1670227745.147000
 !s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode.v|
-!s90 -reportprogress|30|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode.v|
 !s101 -O0
-vsinglepath_plode_testbench
-!i10b 1
-!s100 SY^;4cnZ`VF]BJ^4l3foL0
-IzHOdFW9?=5ieEkR87?;?h1
-VKmFdUUG@]RYNadZ8CHWb<3
-R1
-w1670222776
-8C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v
-FC:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v
-L0 1
-R2
-r1
-!s85 0
-31
-!s108 1670222867.943000
-!s107 C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v|
-!s90 -reportprogress|30|-work|work|C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v|
-!s101 -O0
-R3

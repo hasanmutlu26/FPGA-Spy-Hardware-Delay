@@ -1,13 +1,13 @@
-module delay_datapath(result, pathResult, ld, in, clk);
-input ld, clk, in;
+module delay_datapath(result, pathResult, ld, pathInput, clk);
+input ld, clk, pathInput;
 output [31:0] result;
 output pathResult;
 
 wire [31:0] wAddr;
 
-wire result0, result1, result2, result3, result4, result5, result6, result7, result8, result9, result10, result11, result12, result13, result14, result15, result16, result17, result18, result19, result20, result21, result22, result23, result24, result25, result26, result27, result28, result29, result30, result31, result32, result33, result34, result35, result36, result37, result38, result39, result40, result41, result42, result43, result44, result45, result46, result47, result48, result49, result50, result51, result52, result53, result54, result55, result56, result57, result58, result59, result60, result61, result62, result63, result64, result65, result66, result67, result68, result69, result70, result71, result72, result73, result74, result75, result76, result77, result78, result79, result80, result81, result82, result83, result84, result85, result86, result87, result88, result89, result90, result91, result92, result93, result94, result95, result96, result97, result98, result99;
+(* keep = 1 *) wire result0, result1, result2, result3, result4, result5, result6, result7, result8, result9, result10, result11, result12, result13, result14, result15, result16, result17, result18, result19, result20, result21, result22, result23, result24, result25, result26, result27, result28, result29, result30, result31, result32, result33, result34, result35, result36, result37, result38, result39, result40, result41, result42, result43, result44, result45, result46, result47, result48, result49, result50, result51, result52, result53, result54, result55, result56, result57, result58, result59, result60, result61, result62, result63, result64, result65, result66, result67, result68, result69, result70, result71, result72, result73, result74, result75, result76, result77, result78, result79, result80, result81, result82, result83, result84, result85, result86, result87, result88, result89, result90, result91, result92, result93, result94, result95, result96, result97, result98, result99;
 
-singlepath_plode p0(result0, 1'b0, 1'b1, 1'b0);
+singlepath_plode p0(result0, pathInput, 1'b1, 1'b0);
 singlepath_plode p1(result1, result0, 1'b1, 1'b0);
 singlepath_plode p2(result2, result1, 1'b1, 1'b0);
 singlepath_plode p3(result3, result2, 1'b1, 1'b0);

@@ -1,0 +1,7 @@
+module singlepath_plode_wrapper(out, in, VCC GND);
+input in, VCC, GND;
+output out;
+
+
+
+endmodule
