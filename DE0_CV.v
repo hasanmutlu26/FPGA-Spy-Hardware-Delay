@@ -25,32 +25,50 @@ module DE0_CV(
 	inout 		     [3:0]		SD_DATA
 );
 
+//====================================
+//Test if the path result changes according to the input
+//====================================
+/*
+reg [31:0] count;
+reg slowClock;
 
+initial begin
+count = 32'd0;
+slowClock = 0;
+end
 
-//=======================================================
-//  REG/WIRE declarations
-//=======================================================
+always @ (posedge CLOCK_50) begin
+	count = count + 1'd1;
+	if(count == 32'd25000000) begin
+		count = 32'd0;
+		slowClock = ~slowClock;
+	end
+end
+
+wire pathResult;
+
+singlepath_plode_wrapper(pathResult, slowClock);
+or(HEX5[0], pathResult, 0);
+or(HEX5[1], slowClock, 0);
+*/
+
 
 wire [3:0] dec5, dec4, dec3, dec2, dec1, dec0;
 wire [31:0] result;
 wire startfin;
 
-//=======================================================
-//  Structural coding
-//=======================================================
+
 
 
 //delay d0(result, startfin, 1'b1, CLOCK_50);
 //decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, startfin, CLOCK_50);
-//decToSeg_test t(dec5, dec4, dec3, dec2, dec1, dec0, CLOCK_50);
 
 
-//High to Low 
-HightoLow htl(result, fin, CLOCK_50);
+
+//Low to High
+LowtoHigh htl(result, fin, CLOCK_50);
 decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, CLOCK_50);
 
-//wire N411, N8076;
-//singlepath_plode(N411, N8076);
 
 display g0(HEX0, dec0);
 display g1(HEX1, dec1);
@@ -58,6 +76,8 @@ display g2(HEX2, dec2);
 display g3(HEX3, dec3);
 display g4(HEX4, dec4);
 display g5(HEX5, dec5);
+
+
 
 
 
