@@ -1,0 +1,49 @@
+Quartus II Archive log --	C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DE0_CV.qarlog
+
+Archive:	C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DE0_CV.qar
+Date:		Thu Dec 08 12:17:37 2022
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DE0_CV.SDC
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DE0_CV.qpf
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DE0_CV.qsf
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DE0_CV.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DE0_CV_assignment_defaults.qdf
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DIV_control.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DIV_datpath.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DIV_test.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/LowtoHigh.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/LowtoHigh_control.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/LowtoHigh_testbench.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_2x1MUX.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_ADD.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_DIV.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_DIV_testbench.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_OR.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_REG.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_SLT.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_SUB.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/_32bit_XOR.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/db/DE0_CV.cmp.hdb
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/db/DE0_CV.db_info
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/decToSeg_test.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/decToSeg_testbench.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/decimal_to_7seg.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay_control.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay_datapath.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/delay_testbench.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/display.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/full_adder.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/half_adder.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/incremental_db/compiled_partitions/DE0_CV.db_info
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/path1.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/path1_testbench.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_testbench.v
+C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/singlepath_plode_wrapper.v
+	======= Total: 38 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
