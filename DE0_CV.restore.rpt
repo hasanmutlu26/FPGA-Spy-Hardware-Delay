@@ -1,0 +1,111 @@
+Restore Archived Project report for DE0_CV
+Thu Dec 08 12:29:37 2022
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Thu Dec 08 12:29:37 2022 ;
+; Revision Name                   ; DE0_CV                                ;
+; Top-level Entity Name           ; DE0_CV                                ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/DE0_CV.qar' into the 'C:\\Users\\Lenovo\\Documents\\GitHub\\FPGA-Spy-Hardware-Delay/' directory
+Info: Generated report 'DE0_CV.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/altera/13.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4413 megabytes
+    Info: Processing ended: Thu Dec 08 12:29:37 2022
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++---------------------------------------------------+
+; Files Restored                                    ;
++---------------------------------------------------+
+; File Name                                         ;
++---------------------------------------------------+
+; DE0_CV.SDC                                        ;
+; DE0_CV.qpf                                        ;
+; DE0_CV.qsf                                        ;
+; DE0_CV.v                                          ;
+; DE0_CV_assignment_defaults.qdf                    ;
+; DIV_control.v                                     ;
+; DIV_datpath.v                                     ;
+; DIV_test.v                                        ;
+; LowtoHigh.v                                       ;
+; LowtoHigh_control.v                               ;
+; LowtoHigh_testbench.v                             ;
+; _32bit_2x1MUX.v                                   ;
+; _32bit_ADD.v                                      ;
+; _32bit_DIV.v                                      ;
+; _32bit_DIV_testbench.v                            ;
+; _32bit_OR.v                                       ;
+; _32bit_REG.v                                      ;
+; _32bit_SLT.v                                      ;
+; _32bit_SUB.v                                      ;
+; _32bit_XOR.v                                      ;
+; db/DE0_CV.cmp.hdb                                 ;
+; db/DE0_CV.db_info                                 ;
+; decToSeg_test.v                                   ;
+; decToSeg_testbench.v                              ;
+; decimal_to_7seg.v                                 ;
+; delay.v                                           ;
+; delay_control.v                                   ;
+; delay_datapath.v                                  ;
+; delay_testbench.v                                 ;
+; display.v                                         ;
+; full_adder.v                                      ;
+; half_adder.v                                      ;
+; incremental_db/compiled_partitions/DE0_CV.db_info ;
+; path1.v                                           ;
+; path1_testbench.v                                 ;
+; singlepath_plode.v                                ;
+; singlepath_plode_testbench.v                      ;
+; singlepath_plode_wrapper.v                        ;
++---------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+
