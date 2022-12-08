@@ -1,5 +1,5 @@
 Restore Archived Project report for DE0_CV
-Sun Nov 27 21:06:06 2022
+Thu Dec  8 10:48:50 2022
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -37,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------+
 ; Restore Archived Project Summary                                        ;
 +---------------------------------+---------------------------------------+
-; Restore Archived Project Status ; Successful - Sun Nov 27 21:06:06 2022 ;
+; Restore Archived Project Status ; Successful - Thu Dec  8 10:48:50 2022 ;
 ; Revision Name                   ; DE0_CV                                ;
 ; Top-level Entity Name           ; DE0_CV                                ;
 ; Family                          ; Cyclone V                             ;
@@ -47,13 +47,13 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------+
 ; Restore Archived Project Messages ;
 +-----------------------------------+
-Info: Successfully restored 'C:/Users/Lenovo/Desktop/new/DE0_CV.qar' into the 'C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/' directory
+Info: Successfully restored 'C:/Users/Lenovo/Desktop/DE0_CV.qar' into the 'C:/Users/Lenovo/Documents/GitHub/FPGA-Spy-Hardware-Delay/' directory
 Info: Generated report 'DE0_CV.restore.rpt'
 Info (23030): Evaluation of Tcl script c:/intelfpga_lite/22.1std/quartus/common/tcl/apps/qpm/qar.tcl was successful
-Info: Quartus Prime Shell was successful. 0 errors, 3 warnings
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4832 megabytes
-    Info: Processing ended: Sun Nov 27 21:06:06 2022
-    Info: Elapsed time: 00:00:01
+    Info: Processing ended: Thu Dec  8 10:48:50 2022
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 
 
@@ -70,6 +70,9 @@ Info: Quartus Prime Shell was successful. 0 errors, 3 warnings
 ; DIV_control.v                                     ;
 ; DIV_datpath.v                                     ;
 ; DIV_test.v                                        ;
+; LowtoHigh.v                                       ;
+; LowtoHigh_control.v                               ;
+; LowtoHigh_testbench.v                             ;
 ; _32bit_2x1MUX.v                                   ;
 ; _32bit_ADD.v                                      ;
 ; _32bit_DIV.v                                      ;
@@ -104,7 +107,6 @@ Info: Quartus Prime Shell was successful. 0 errors, 3 warnings
 +--------------------+
 ; File Name          ;
 +--------------------+
-; DE0_CV.sdc         ;
 ; db/DE0_CV.cmp.hdb  ;
 +--------------------+
 

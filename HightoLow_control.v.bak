@@ -1,4 +1,0 @@
-module HightoLow_control(pathInput, ld_reg, fin, pathResult);
-
-
-endmodule

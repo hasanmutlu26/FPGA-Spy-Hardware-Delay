@@ -46,8 +46,8 @@ wire startfin;
 
 
 //High to Low 
-HightoLow htl(result, fin, clk);
-decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, clk);
+HightoLow htl(result, fin, CLOCK_50);
+decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, CLOCK_50);
 
 //wire N411, N8076;
 //singlepath_plode(N411, N8076);

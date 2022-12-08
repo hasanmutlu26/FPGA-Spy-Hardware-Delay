@@ -1,3 +1,0 @@
-module HightoLow(result, fin, CLOCK_50);
-
-endmodule
