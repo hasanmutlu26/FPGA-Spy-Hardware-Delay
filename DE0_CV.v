@@ -25,6 +25,16 @@ module DE0_CV(
 	inout 		     [3:0]		SD_DATA
 );
 
+
+wire clk250;
+
+pll250_0002 pll250_inst (
+		.refclk   (CLOCK_50),   //  refclk.clk
+		.rst      (rst),      //   reset.reset
+		.outclk_0 (clk250), // outclk0.clk
+		.locked   ()          // (terminated)
+	);
+
 //====================================
 //Test if the path result changes according to the input
 //====================================
@@ -37,9 +47,9 @@ count = 32'd0;
 slowClock = 0;
 end
 
-always @ (posedge CLOCK_50) begin
+always @ (posedge clk250) begin
 	count = count + 1'd1;
-	if(count == 32'd25000000) begin
+	if(count == 32'd250000000) begin
 		count = 32'd0;
 		slowClock = ~slowClock;
 	end
@@ -66,8 +76,8 @@ wire startfin;
 
 
 //Low to High
-LowtoHigh htl(result, fin, CLOCK_50);
-decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, CLOCK_50);
+LowtoHigh htl(result, fin, clk250);
+decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, clk250);
 
 
 display g0(HEX0, dec0);
