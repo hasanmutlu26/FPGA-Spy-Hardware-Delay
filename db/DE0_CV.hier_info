@@ -313,82 +313,265 @@ result[28] <= result[28].DB_MAX_OUTPUT_PORT_TYPE
 result[29] <= result[29].DB_MAX_OUTPUT_PORT_TYPE
 result[30] <= result[30].DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= result[31].DB_MAX_OUTPUT_PORT_TYPE
-pathResult <= singlepath_plode:p1.port0
+pathResult <= singlepath_3_wrapper:path.port0
 ld => ld.IN1
 pathInput => _.IN1
 clk => clk.IN1
 
 
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_plode:p0
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-s1 <= s1~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s2 <= s2~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s3 <= s3~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s4 <= s4~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s5 <= s5~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s6 <= s6~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s7 <= s7~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s8 <= s8~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s9 <= s9~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s10 <= s10~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s11 <= s11~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s12 <= s12~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s13 <= s13~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s14 <= s14~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s15 <= s15~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s16 <= s16~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s17 <= s17~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s18 <= s18~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s19 <= s19~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s20 <= s20~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s21 <= s21~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s22 <= s22~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s23 <= s23~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s24 <= s24~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s25 <= s25~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s26 <= <GND>
-s27 <= s27~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path
+pathResult <= pathResult~buf0.DB_MAX_OUTPUT_PORT_TYPE
+pathInput => pathInput~buf0.DATAIN
 
 
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_plode:p1
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-s1 <= s1~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s2 <= s2~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s3 <= s3~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s4 <= s4~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s5 <= s5~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s6 <= s6~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s7 <= s7~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s8 <= s8~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s9 <= s9~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s10 <= s10~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s11 <= s11~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s12 <= s12~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s13 <= s13~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s14 <= s14~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s15 <= s15~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s16 <= s16~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s17 <= s17~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s18 <= s18~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s19 <= s19~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s20 <= s20~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s21 <= s21~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s22 <= s22~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s23 <= s23~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s24 <= s24~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s25 <= s25~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s26 <= <GND>
-s27 <= s27~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s28 <= s28~buf0.DB_MAX_OUTPUT_PORT_TYPE
-s29 <= s29~buf0.DB_MAX_OUTPUT_PORT_TYPE
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p0
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p1
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p2
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p3
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p4
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p5
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p6
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p7
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p8
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p9
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p10
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p11
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p12
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p13
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p14
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p15
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p16
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p17
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p18
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p19
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p20
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p21
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p22
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p23
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p24
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p25
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p26
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p27
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p28
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p29
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p30
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p31
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p32
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p33
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p34
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p35
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p36
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p37
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p38
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p39
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p40
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p41
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p42
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p43
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p44
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p45
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p46
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p47
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p48
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_wrapper:path|singlepath_3:p49
+N11334 <= N11334~buf0.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N251~buf0.DATAIN
 
 
 |DE0_CV|LowtoHigh:htl|delay_datapath:datapath|_32bit_REG:r

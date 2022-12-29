@@ -26,7 +26,7 @@ and (fin, R[1], ~R[0]);
 
 
 initial begin
-R = 1'b0;
+R = 2'b0;
 end
 
 always @ (posedge clk)
