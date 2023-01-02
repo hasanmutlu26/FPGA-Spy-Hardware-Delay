@@ -78,7 +78,12 @@ wire startfin;
 
 
 //Low to High
-LowtoHigh htl(result, fin, clk250);
+//LowtoHigh htl(result, fin, clk250);
+//decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, clk250);
+
+
+//High to Low
+HightoLow htl(result, fin, clk250);
 decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, clk250);
 
 
