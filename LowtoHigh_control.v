@@ -18,7 +18,11 @@ and (w101, R[1], ~R[0], pathResult);
 or (N[1], w011, w100, w101);
 or (N[0], w000, w010);
 
-and (pathInput, ~R[1], ~R[0]);
+and (ws1, ~R[1], R[0]);
+and (ws2, R[1], ~R[0]);
+
+or (pathInput, ws1, ws2);
+
 and (ld_reg, ~R[1], R[0]);
 and (fin, R[1], ~R[0]);
 
@@ -26,7 +30,7 @@ and (fin, R[1], ~R[0]);
 
 
 initial begin
-R = 2'b0;
+R = 1'b0;
 end
 
 always @ (posedge clk)

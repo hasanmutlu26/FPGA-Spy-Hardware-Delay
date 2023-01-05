@@ -38,8 +38,8 @@ pll250_0002 pll250_inst (
 //====================================
 //Test if the path result changes according to the input
 //====================================
-
-/*reg [31:0] count;
+/*
+reg [31:0] count;
 reg slowClock;
 
 initial begin
@@ -57,11 +57,7 @@ end
 
 wire pathResult;
 
-//singlepath_plode_wrapper(pathResult, slowClock);
-//singlepath_2(pathResult, slowClock);
-singlepath_3(pathResult, slowClock);
-
-
+singlepath_plode_wrapper(pathResult, slowClock);
 or(HEX5[0], pathResult, 0);
 or(HEX5[1], slowClock, 0);
 */
@@ -74,17 +70,19 @@ wire startfin;
 
 
 
+//delay d0(result, startfin, 1'b1, CLOCK_50);
+//decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, startfin, CLOCK_50);
 
 
 
 //Low to High
-//LowtoHigh htl(result, fin, clk250);
-//decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, clk250);
+LowtoHigh htl(result, fin, clk250);
+decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, clk250);
 
 
 //High to Low
-HightoLow htl(result, fin, clk250);
-decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, clk250);
+//HightoLow htl(result, fin, clk250);
+//decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, clk250);
 
 
 display g0(HEX0, dec0);

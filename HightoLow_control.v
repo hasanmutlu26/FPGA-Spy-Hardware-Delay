@@ -5,7 +5,7 @@ output pathInput, ld_reg, fin;
 reg [1:0] R;
 wire [1:0] N;
 
-wire w000, w001, w010, w011, w100, w101, ws1, ws2;
+wire w000, w001, w010, w011, w100, w101;
 
 
 and (w000, ~R[1], ~R[0], ~pathResult);
@@ -20,11 +20,7 @@ or (N[0], w001, w011);
 or (N[1], w010, w100, w101);
 
 
-and (ws1, ~R[1], R[0]);
-and (ws2, R[1], ~R[0]);
-
-
-or (pathInput, ws1, ws2);
+and (pathInput, ~R[1], ~R[0]);
 and (ld_reg, ~R[1], R[0]);
 and (fin, R[1], ~R[0]);
 
