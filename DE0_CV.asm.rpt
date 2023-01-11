@@ -1,5 +1,5 @@
 Assembler report for DE0_CV
-Thu Jan  5 14:34:58 2023
+Wed Jan 11 09:44:36 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -10,8 +10,8 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/Lenovo/Downloads/Compressed/FPGA-Spy-Hardware-Delay-74372601d3bf36ae413c610186b1237dd75cb367/DE0_CV.sof
-  6. Assembler Device Options: C:/Users/Lenovo/Downloads/Compressed/FPGA-Spy-Hardware-Delay-74372601d3bf36ae413c610186b1237dd75cb367/DE0_CV.pof
+  5. Assembler Device Options: C:/Users/Lenovo/Desktop/FPGA-Spy-Hardware-Delay/DE0_CV.sof
+  6. Assembler Device Options: C:/Users/Lenovo/Desktop/FPGA-Spy-Hardware-Delay/DE0_CV.pof
   7. Assembler Messages
 
 
@@ -39,7 +39,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Jan  5 14:34:58 2023 ;
+; Assembler Status      ; Successful - Wed Jan 11 09:44:36 2023 ;
 ; Revision Name         ; DE0_CV                                ;
 ; Top-level Entity Name ; DE0_CV                                ;
 ; Family                ; Cyclone V                             ;
@@ -54,35 +54,35 @@ https://fpgasoftware.intel.com/eula.
 +--------+---------+---------------+
 
 
-+------------------------------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                                        ;
-+------------------------------------------------------------------------------------------------------------------+
-; File Name                                                                                                        ;
-+------------------------------------------------------------------------------------------------------------------+
-; C:/Users/Lenovo/Downloads/Compressed/FPGA-Spy-Hardware-Delay-74372601d3bf36ae413c610186b1237dd75cb367/DE0_CV.sof ;
-; C:/Users/Lenovo/Downloads/Compressed/FPGA-Spy-Hardware-Delay-74372601d3bf36ae413c610186b1237dd75cb367/DE0_CV.pof ;
-+------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------+
+; Assembler Generated Files                                  ;
++------------------------------------------------------------+
+; File Name                                                  ;
++------------------------------------------------------------+
+; C:/Users/Lenovo/Desktop/FPGA-Spy-Hardware-Delay/DE0_CV.sof ;
+; C:/Users/Lenovo/Desktop/FPGA-Spy-Hardware-Delay/DE0_CV.pof ;
++------------------------------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/Lenovo/Downloads/Compressed/FPGA-Spy-Hardware-Delay-74372601d3bf36ae413c610186b1237dd75cb367/DE0_CV.sof ;
-+----------------+---------------------------------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                                                   ;
-+----------------+---------------------------------------------------------------------------------------------------------------------------+
-; JTAG usercode  ; 0x005B44C0                                                                                                                ;
-; Checksum       ; 0x005B44C0                                                                                                                ;
-+----------------+---------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/Lenovo/Desktop/FPGA-Spy-Hardware-Delay/DE0_CV.sof ;
++----------------+---------------------------------------------------------------------+
+; Option         ; Setting                                                             ;
++----------------+---------------------------------------------------------------------+
+; JTAG usercode  ; 0x004E0139                                                          ;
+; Checksum       ; 0x004E0139                                                          ;
++----------------+---------------------------------------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/Lenovo/Downloads/Compressed/FPGA-Spy-Hardware-Delay-74372601d3bf36ae413c610186b1237dd75cb367/DE0_CV.pof ;
-+--------------------+-----------------------------------------------------------------------------------------------------------------------+
-; Option             ; Setting                                                                                                               ;
-+--------------------+-----------------------------------------------------------------------------------------------------------------------+
-; JTAG usercode      ; 0x00000000                                                                                                            ;
-; Checksum           ; 0xF4255103                                                                                                            ;
-; Compression Ratio  ; 3                                                                                                                     ;
-+--------------------+-----------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/Lenovo/Desktop/FPGA-Spy-Hardware-Delay/DE0_CV.pof ;
++--------------------+-----------------------------------------------------------------+
+; Option             ; Setting                                                         ;
++--------------------+-----------------------------------------------------------------+
+; JTAG usercode      ; 0x00000000                                                      ;
+; Checksum           ; 0xF4365220                                                      ;
+; Compression Ratio  ; 3                                                               ;
++--------------------+-----------------------------------------------------------------+
 
 
 +--------------------+
@@ -91,13 +91,14 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Thu Jan  5 14:34:53 2023
+    Info: Processing started: Wed Jan 11 09:44:30 2023
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off DE0_CV -c DE0_CV
+Info (125069): Default assignment values were changed in the current version of the Quartus Prime software -- changes to default assignments values are contained in file c:/intelfpga_lite/22.1std/quartus/bin64/assignment_defaults.qdf
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4856 megabytes
-    Info: Processing ended: Thu Jan  5 14:34:58 2023
-    Info: Elapsed time: 00:00:05
+    Info: Peak virtual memory: 4865 megabytes
+    Info: Processing ended: Wed Jan 11 09:44:36 2023
+    Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:05
 
 

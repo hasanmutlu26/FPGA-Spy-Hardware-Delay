@@ -4,10 +4,10 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CEBA4F23C7
-set_global_assignment -name TOP_LEVEL_ENTITY DE0_CV
+set_global_assignment -name TOP_LEVEL_ENTITY "DE0_CV"
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 14.0
-set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.0 Lite Edition"
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:41:07 NOVEMBER 05,2022"
+set_global_assignment -name LAST_QUARTUS_VERSION 14.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:33:23 JANUARY 11,2023"
 set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
 set_global_assignment -name DEVICE_FILTER_PIN_COUNT 484
 set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 7
@@ -113,6 +113,20 @@ set_location_assignment PIN_W19 -to HEX5[6]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[6]
 
 #============================================================
+# KEY
+#============================================================
+set_location_assignment PIN_U7 -to KEY[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[0]
+set_location_assignment PIN_W9 -to KEY[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[1]
+set_location_assignment PIN_M7 -to KEY[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[2]
+set_location_assignment PIN_M6 -to KEY[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[3]
+set_location_assignment PIN_P22 -to RESET_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to RESET_N
+
+#============================================================
 # microSD Card
 #============================================================
 set_location_assignment PIN_H11 -to SD_CLK
@@ -127,6 +141,30 @@ set_location_assignment PIN_E12 -to SD_DATA[2]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SD_DATA[2]
 set_location_assignment PIN_C11 -to SD_DATA[3]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SD_DATA[3]
+
+#============================================================
+# SW
+#============================================================
+set_location_assignment PIN_U13 -to SW[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[0]
+set_location_assignment PIN_V13 -to SW[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[1]
+set_location_assignment PIN_T13 -to SW[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[2]
+set_location_assignment PIN_T12 -to SW[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[3]
+set_location_assignment PIN_AA15 -to SW[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[4]
+set_location_assignment PIN_AB15 -to SW[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[5]
+set_location_assignment PIN_AA14 -to SW[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[6]
+set_location_assignment PIN_AA13 -to SW[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[7]
+set_location_assignment PIN_AB13 -to SW[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[8]
+set_location_assignment PIN_AB12 -to SW[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[9]
 
 #============================================================
 # End of pin assignments by Terasic System Builder

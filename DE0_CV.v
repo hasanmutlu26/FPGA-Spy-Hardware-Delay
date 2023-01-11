@@ -19,10 +19,17 @@ module DE0_CV(
 	output		     [6:0]		HEX4,
 	output		     [6:0]		HEX5,
 
+	//////////// KEY //////////
+	input 		     [3:0]		KEY,
+	input 		          		RESET_N,
+
 	//////////// microSD Card //////////
 	output		          		SD_CLK,
 	inout 		          		SD_CMD,
-	inout 		     [3:0]		SD_DATA
+	inout 		     [3:0]		SD_DATA,
+
+	//////////// SW //////////
+	input 		     [9:0]		SW
 );
 
 
@@ -35,6 +42,31 @@ pll250_0002 pll250_inst (
 		.locked   ()          // (terminated)
 	);
 
+
+
+//====================================
+//Test if the physical switches on the FPGA work
+//====================================
+/*
+or(HEX5[0], SW[0], 0);
+or(HEX5[1], SW[1], 0);
+or(HEX5[2], SW[2], 0);
+or(HEX5[3], SW[3], 0);
+or(HEX5[4], SW[4], 0);
+or(HEX5[5], SW[5], 0);
+or(HEX5[6], SW[6], 0);
+
+or(HEX4[0], SW[7], 0);
+or(HEX4[1], SW[8], 0);
+or(HEX4[2], SW[9], 0);
+or(HEX4[3], KEY[0], 0);
+or(HEX4[4], KEY[1], 0);
+or(HEX4[5], KEY[2], 0);
+or(HEX4[6], KEY[3], 0);
+*/
+
+	
+	
 //====================================
 //Test if the path result changes according to the input
 //====================================
@@ -74,7 +106,7 @@ wire startfin;
 //decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, startfin, CLOCK_50);
 
 
-
+/*
 //Low to High
 LowtoHigh htl(result, fin, clk250);
 decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, clk250);
@@ -91,7 +123,7 @@ display g2(HEX2, dec2);
 display g3(HEX3, dec3);
 display g4(HEX4, dec4);
 display g5(HEX5, dec5);
-
+*/
 
 
 
