@@ -1,5 +1,5 @@
 Flow report for DE0_CV
-Wed Jan 11 09:44:36 2023
+Wed Jan 11 14:46:27 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -41,15 +41,15 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +---------------------------------+------------------------------------------------+
-; Flow Status                     ; Successful - Wed Jan 11 09:44:36 2023          ;
+; Flow Status                     ; Successful - Wed Jan 11 14:46:27 2023          ;
 ; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                   ; DE0_CV                                         ;
 ; Top-level Entity Name           ; DE0_CV                                         ;
 ; Family                          ; Cyclone V                                      ;
 ; Device                          ; 5CEBA4F23C7                                    ;
 ; Timing Models                   ; Final                                          ;
-; Logic utilization (in ALMs)     ; 1 / 18,480 ( < 1 % )                           ;
-; Total registers                 ; 0                                              ;
+; Logic utilization (in ALMs)     ; 14,718 / 18,480 ( 80 % )                       ;
+; Total registers                 ; 763                                            ;
 ; Total pins                      ; 67 / 224 ( 30 % )                              ;
 ; Total virtual pins              ; 0                                              ;
 ; Total block memory bits         ; 0 / 3,153,920 ( 0 % )                          ;
@@ -58,7 +58,7 @@ https://fpgasoftware.intel.com/eula.
 ; Total HSSI PMA RX Deserializers ; 0                                              ;
 ; Total HSSI TX PCSs              ; 0                                              ;
 ; Total HSSI PMA TX Serializers   ; 0                                              ;
-; Total PLLs                      ; 0 / 4 ( 0 % )                                  ;
+; Total PLLs                      ; 1 / 4 ( 25 % )                                 ;
 ; Total DLLs                      ; 0 / 4 ( 0 % )                                  ;
 +---------------------------------+------------------------------------------------+
 
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/11/2023 09:44:02 ;
+; Start date & time ; 01/11/2023 14:42:40 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; DE0_CV              ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+--------------------+-------------+-----------------------------------+
 ; Assignment Name                     ; Value                                  ; Default Value      ; Entity Name ; Section Id                        ;
 +-------------------------------------+----------------------------------------+--------------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 273184149017575.167341944211380        ; --                 ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID               ; 273184149017575.167343736001804        ; --                 ; --          ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                 ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                 ; --          ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                 ; --          ; eda_board_design_signal_integrity ;
@@ -113,10 +113,10 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:08     ; 1.0                     ; 4806 MB             ; 00:00:21                           ;
-; Fitter               ; 00:00:17     ; 1.0                     ; 6114 MB             ; 00:00:23                           ;
-; Assembler            ; 00:00:06     ; 1.0                     ; 4864 MB             ; 00:00:05                           ;
-; Total                ; 00:00:31     ; --                      ; --                  ; 00:00:49                           ;
+; Analysis & Synthesis ; 00:00:24     ; 1.7                     ; 4991 MB             ; 00:00:47                           ;
+; Fitter               ; 00:03:00     ; 1.2                     ; 6410 MB             ; 00:06:48                           ;
+; Assembler            ; 00:00:14     ; 1.0                     ; 5002 MB             ; 00:00:13                           ;
+; Total                ; 00:03:38     ; --                      ; --                  ; 00:07:48                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

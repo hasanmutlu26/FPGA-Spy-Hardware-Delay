@@ -106,15 +106,19 @@ wire startfin;
 //decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, startfin, CLOCK_50);
 
 
-/*
+
 //Low to High
-LowtoHigh htl(result, fin, clk250);
-decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, clk250);
+//LowtoHigh htl(result, fin, clk250);
+//decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, clk250);
 
 
 //High to Low
 //HightoLow htl(result, fin, clk250);
 //decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, clk250);
+
+
+multipath htl(result, fin, SW[2:0], clk250);
+decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, clk250);
 
 
 display g0(HEX0, dec0);
@@ -123,7 +127,7 @@ display g2(HEX2, dec2);
 display g3(HEX3, dec3);
 display g4(HEX4, dec4);
 display g5(HEX5, dec5);
-*/
+
 
 
 
