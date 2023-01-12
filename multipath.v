@@ -4,6 +4,7 @@ input [2:0] SW;
 output reg fin;
 output reg [31:0] result;
 wire [31:0] result1, result2, result3, result4, result5, result6, result7, result8;
+wire fin1, fin2, fin3, fin4, fin5, fin6, fin7, fin8;
 
 LowtoHigh htl1(result1, fin1, clk250);
 LowtoHigh htl2(result2, fin2, clk250);

@@ -5,7 +5,7 @@ output pathInput, ld_reg, fin;
 reg [1:0] R;
 wire [1:0] N;
 
-wire w000, w001, w010, w011, w100, w101;
+wire w000, w001, w010, w011, w100, w101, ws1, ws2;
 
 and (w000, ~R[1], ~R[0], ~pathResult);
 and (w001, ~R[1], ~R[0], pathResult);

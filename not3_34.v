@@ -1,4 +1,4 @@
-module not3_17(out, in);
+module not3_34(out, in);
 input in;
 output out;
 

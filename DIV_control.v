@@ -8,12 +8,12 @@ wire wAnd6, wAnd9;	//n2
 wire wAnd3, wAnd5, wAnd7; //n1
 wire wAnd1;		//n0
 
-and(wAnd6, ~R[2], R[1], ~R[0], ~b_less);
+and(wAnd6, ~R[2], R[1], ~R[0], b_less);
 and(wAnd9, R[2], ~R[1], ~R[0]);
 or(N[2], wAnd6, wAnd9);
 
 and(wAnd3, ~R[2], ~R[1], R[0]);
-and(wAnd5, ~R[2], R[1], ~R[0], b_less);
+and(wAnd5, ~R[2], R[1], ~R[0], ~b_less);
 and(wAnd7, ~R[2], R[1], R[0]); 
 or(N[1], wAnd3, wAnd5, wAnd7);
 

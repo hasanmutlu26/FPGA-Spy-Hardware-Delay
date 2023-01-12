@@ -15,7 +15,7 @@ _32bit_2x1MUX g1(mux_out, A, sub_out, mux);
 
 _32bit_SUB g2(sub_out, wRes, B);
 
-_32bit_SLT g3(b_less, B, wRes);
+_32bit_SLT g3(b_less, wRes, B);
 
 _32bit_OR g32(resultMod, wRes, 32'd0);
 
