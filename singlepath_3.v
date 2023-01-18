@@ -1,6 +1,3 @@
-// 54 tot, 35 gates, 17 nots and bufs,   
-// 24 gates and 34 buf components in rtl viewer. (turns out not all gates in the file are connected to output.)
-
 module singlepath_3 (N11334, N251, Vcc, gnd);
 input N251, Vcc, gnd;
 output N11334;

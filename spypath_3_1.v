@@ -1,5 +1,3 @@
-// HT_IN1 and HT_IN2 = 0, N11334 = ~N251
-
 module spypath_3_1 (N11334, N251, HT_IN1, HT_IN2, Vcc, gnd);
 (* keep = 1 *) input HT_IN1, HT_IN2, N251, Vcc, gnd;
 (* keep = 1 *) output N11334;

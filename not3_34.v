@@ -1,11 +1,11 @@
-module not3_34(out, in);
+module not3_33(out, in);
 input in;
 output out;
 
 (* keep = 1 *) wire w0, w1, w2, w3, w4, w5, w6, w7, w8, w9, w10,
 w11, w12, w13, w14, w15, w16, w17, w18, w19, w20,
 w21, w22, w23, w24, w25, w26, w27, w28, w29, w30,
-w31, w32, w33;
+w31, w32;
 
 not n0(w0, in);
 not n1(w1, w0);
@@ -39,7 +39,7 @@ not n28(w28, w27);
 not n29(w29, w28);
 not n30(w30, w29);
 not n31(w31, w30);
-not n32(w32, w31);
-not n33(out, w32);
+not n32(out, w31);
+//not n33(out, w32);
 
 endmodule

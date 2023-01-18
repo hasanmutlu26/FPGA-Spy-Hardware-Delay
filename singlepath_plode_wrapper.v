@@ -55,7 +55,7 @@ singlepath_plode p47(w47, w46, 1'b1, 1'b0);
 singlepath_plode p48(w48, w47, 1'b1, 1'b0);
 singlepath_plode p49(pathResult, w48, 1'b1, 1'b0);
 /*singlepath_plode p50(pathResult, w49, 1'b1, 1'b0);
-/*singlepath_plode p51(w51, w50, 1'b1, 1'b0);
+singlepath_plode p51(w51, w50, 1'b1, 1'b0);
 singlepath_plode p52(w52, w51, 1'b1, 1'b0);
 singlepath_plode p53(w53, w52, 1'b1, 1'b0);
 singlepath_plode p54(w54, w53, 1'b1, 1'b0);
