@@ -120,7 +120,7 @@ wire fin;
 //multipath htl(result, fin, SW[2:0], clk250);
 //decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, CLOCK_50);
 
-
+/*
 multipath_32 htl(result, fin, SW[4:0], clk250);
 decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, CLOCK_50);
 
@@ -131,7 +131,9 @@ display g2(HEX2, dec2);
 display g3(HEX3, dec3);
 display g4(HEX4, dec4);
 display g5(HEX5, dec5);
+*/
 
+_7bitOR o0(HEX0, 7'b1101010);
 
 
 
