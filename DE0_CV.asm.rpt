@@ -1,6 +1,6 @@
 Assembler report for DE0_CV
-Thu Jan 19 16:05:12 2023
-Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Wed May 17 00:00:52 2023
+Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 
 
 ---------------------
@@ -19,7 +19,7 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2022  Intel Corporation. All rights reserved.
+Copyright (C) 2023  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -39,7 +39,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Jan 19 16:05:12 2023 ;
+; Assembler Status      ; Successful - Wed May 17 00:00:52 2023 ;
 ; Revision Name         ; DE0_CV                                ;
 ; Top-level Entity Name ; DE0_CV                                ;
 ; Family                ; Cyclone V                             ;
@@ -69,8 +69,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------+---------------------------------------------------------------------+
 ; Option         ; Setting                                                             ;
 +----------------+---------------------------------------------------------------------+
-; JTAG usercode  ; 0x004DF059                                                          ;
-; Checksum       ; 0x004DF059                                                          ;
+; JTAG usercode  ; 0x006AD4C0                                                          ;
+; Checksum       ; 0x006AD4C0                                                          ;
 +----------------+---------------------------------------------------------------------+
 
 
@@ -80,7 +80,7 @@ https://fpgasoftware.intel.com/eula.
 ; Option             ; Setting                                                         ;
 +--------------------+-----------------------------------------------------------------+
 ; JTAG usercode      ; 0x00000000                                                      ;
-; Checksum           ; 0xF436D929                                                      ;
+; Checksum           ; 0xF40A0AB2                                                      ;
 ; Compression Ratio  ; 3                                                               ;
 +--------------------+-----------------------------------------------------------------+
 
@@ -90,14 +90,14 @@ https://fpgasoftware.intel.com/eula.
 +--------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
-    Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Thu Jan 19 16:05:07 2023
+    Info: Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
+    Info: Processing started: Wed May 17 00:00:45 2023
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off DE0_CV -c DE0_CV
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4859 megabytes
-    Info: Processing ended: Thu Jan 19 16:05:12 2023
-    Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Peak virtual memory: 4868 megabytes
+    Info: Processing ended: Wed May 17 00:00:52 2023
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:06
 
 

@@ -44,57 +44,6 @@ pll250_0002 pll250_inst (
 
 
 
-//====================================
-//Test if the physical switches on the FPGA work
-//====================================
-/*
-or(HEX5[0], SW[0], 0);
-or(HEX5[1], SW[1], 0);
-or(HEX5[2], SW[2], 0);
-or(HEX5[3], SW[3], 0);
-or(HEX5[4], SW[4], 0);
-or(HEX5[5], SW[5], 0);
-or(HEX5[6], SW[6], 0);
-
-or(HEX4[0], SW[7], 0);
-or(HEX4[1], SW[8], 0);
-or(HEX4[2], SW[9], 0);
-or(HEX4[3], KEY[0], 0);
-or(HEX4[4], KEY[1], 0);
-or(HEX4[5], KEY[2], 0);
-or(HEX4[6], KEY[3], 0);
-*/
-
-	
-	
-//====================================
-//Test if the path result changes according to the input
-//====================================
-/*
-reg [31:0] count;
-reg slowClock;
-
-initial begin
-count = 32'd0;
-slowClock = 0;
-end
-
-always @ (posedge clk250) begin
-	count = count + 1'd1;
-	if(count == 32'd250000000) begin
-		count = 32'd0;
-		slowClock = ~slowClock;
-	end
-end
-
-wire pathResult;
-
-singlepath_plode_wrapper(pathResult, slowClock);
-or(HEX5[0], pathResult, 0);
-or(HEX5[1], slowClock, 0);
-*/
-
-
 wire [3:0] dec5, dec4, dec3, dec2, dec1, dec0;
 wire [31:0] result;
 wire fin;
@@ -108,8 +57,8 @@ wire fin;
 
 
 //Low to High
-//LowtoHigh htl(result, fin, clk250);
-//decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, CLOCK_50);
+LowtoHigh htl(result, fin, clk250);
+decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, CLOCK_50);
 
 
 //High to Low
@@ -120,9 +69,9 @@ wire fin;
 //multipath htl(result, fin, SW[2:0], clk250);
 //decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, CLOCK_50);
 
-/*
-multipath_32 htl(result, fin, SW[4:0], clk250);
-decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, CLOCK_50);
+
+//multipath_32 htl(result, fin, SW[4:0], clk250);
+//decimal_to_7seg dectoseg(dec5, dec4, dec3, dec2, dec1, dec0, result, fin, CLOCK_50);
 
 
 display g0(HEX0, dec0);
@@ -131,9 +80,7 @@ display g2(HEX2, dec2);
 display g3(HEX3, dec3);
 display g4(HEX4, dec4);
 display g5(HEX5, dec5);
-*/
 
-_7bitOR o0(HEX0, 7'b1101010);
 
 
 

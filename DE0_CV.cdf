@@ -1,10 +1,10 @@
-/* Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition */
+/* Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition */
 JedecChain;
 	FileRevision(JESD32A);
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(5CEBA4F23) Path("C:/Users/Lenovo/Desktop/FPGA-Spy-Hardware-Delay/") File("mul8_spy31_100.sof") MfrSpec(OpMask(1));
+		Device PartName(5CEBA4F23) Path("C:/Users/Lenovo/Desktop/FPGA-Spy-Hardware-Delay/") File("DE0_CV.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

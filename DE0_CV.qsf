@@ -6,7 +6,7 @@ set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CEBA4F23C7
 set_global_assignment -name TOP_LEVEL_ENTITY "DE0_CV"
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 14.0
-set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.0 Lite Edition"
+set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.1 Lite Edition"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:33:23 JANUARY 11,2023"
 set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
 set_global_assignment -name DEVICE_FILTER_PIN_COUNT 484
@@ -206,6 +206,10 @@ set_global_assignment -name TIMING_ANALYZER_MULTICORNER_ANALYSIS ON
 set_global_assignment -name NUM_PARALLEL_PROCESSORS ALL
 set_global_assignment -name ADVANCED_PHYSICAL_OPTIMIZATION ON
 set_global_assignment -name OPTIMIZATION_MODE BALANCED
+set_global_assignment -name FINAL_PLACEMENT_OPTIMIZATION NEVER
+set_global_assignment -name FITTER_AGGRESSIVE_ROUTABILITY_OPTIMIZATION NEVER
+set_global_assignment -name SEED 0
+set_global_assignment -name FITTER_EFFORT "FAST FIT"
 set_global_assignment -name SDC_FILE DE0_CV.SDC
 set_global_assignment -name VERILOG_FILE _32bit_SUB.v
 set_global_assignment -name VERILOG_FILE _32bit_XOR.v
@@ -243,6 +247,7 @@ set_global_assignment -name VERILOG_FILE HightoLow.v
 set_global_assignment -name VERILOG_FILE singlepath_plode_wrapper.v
 set_global_assignment -name QIP_FILE pll250.qip
 set_global_assignment -name SIP_FILE pll250.sip
+set_global_assignment -name VERILOG_FILE singlepath_1.v
 set_global_assignment -name VERILOG_FILE singlepath_1_5n.v
 set_global_assignment -name VERILOG_FILE singlepath_1_10.v
 set_global_assignment -name VERILOG_FILE singlepath_1_20.v

@@ -1,6 +1,6 @@
 Flow report for DE0_CV
-Thu Jan 19 16:05:12 2023
-Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Wed May 17 00:00:52 2023
+Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 
 
 ---------------------
@@ -21,7 +21,7 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2022  Intel Corporation. All rights reserved.
+Copyright (C) 2023  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -41,15 +41,15 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +---------------------------------+------------------------------------------------+
-; Flow Status                     ; Successful - Thu Jan 19 16:05:12 2023          ;
-; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
+; Flow Status                     ; Successful - Wed May 17 00:00:52 2023          ;
+; Quartus Prime Version           ; 22.1std.1 Build 917 02/14/2023 SC Lite Edition ;
 ; Revision Name                   ; DE0_CV                                         ;
 ; Top-level Entity Name           ; DE0_CV                                         ;
 ; Family                          ; Cyclone V                                      ;
 ; Device                          ; 5CEBA4F23C7                                    ;
 ; Timing Models                   ; Final                                          ;
-; Logic utilization (in ALMs)     ; 1 / 18,480 ( < 1 % )                           ;
-; Total registers                 ; 0                                              ;
+; Logic utilization (in ALMs)     ; 1,309 / 18,480 ( 7 % )                         ;
+; Total registers                 ; 545                                            ;
 ; Total pins                      ; 67 / 224 ( 30 % )                              ;
 ; Total virtual pins              ; 0                                              ;
 ; Total block memory bits         ; 0 / 3,153,920 ( 0 % )                          ;
@@ -58,7 +58,7 @@ https://fpgasoftware.intel.com/eula.
 ; Total HSSI PMA RX Deserializers ; 0                                              ;
 ; Total HSSI TX PCSs              ; 0                                              ;
 ; Total HSSI PMA TX Serializers   ; 0                                              ;
-; Total PLLs                      ; 0 / 4 ( 0 % )                                  ;
+; Total PLLs                      ; 1 / 4 ( 25 % )                                 ;
 ; Total DLLs                      ; 0 / 4 ( 0 % )                                  ;
 +---------------------------------+------------------------------------------------+
 
@@ -68,44 +68,48 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/19/2023 16:04:39 ;
+; Start date & time ; 05/16/2023 23:59:54 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; DE0_CV              ;
 +-------------------+---------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                                    ;
-+-------------------------------------+----------------------------------------+--------------------+-------------+-----------------------------------+
-; Assignment Name                     ; Value                                  ; Default Value      ; Entity Name ; Section Id                        ;
-+-------------------------------------+----------------------------------------+--------------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 273184149017575.167413347920836        ; --                 ; --          ; --                                ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                 ; --          ; eda_board_design_timing           ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                 ; --          ; eda_board_design_boundary_scan    ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                 ; --          ; eda_board_design_signal_integrity ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                 ; --          ; eda_formal_verification           ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                 ; --          ; eda_board_design_symbol           ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --                 ; --          ; --                                ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --                 ; --          ; --                                ;
-; MISC_FILE                           ; pll250.cmp                             ; --                 ; --          ; --                                ;
-; MISC_FILE                           ; pll250_sim/pll250.vo                   ; --                 ; --          ; --                                ;
-; NUM_PARALLEL_PROCESSORS             ; All                                    ; --                 ; --          ; --                                ;
-; OPTIMIZE_HOLD_TIMING                ; Off                                    ; All Paths          ; --          ; --                                ;
-; OPTIMIZE_MULTI_CORNER_TIMING        ; Off                                    ; On                 ; --          ; --                                ;
-; OPTIMIZE_POWER_DURING_FITTING       ; Off                                    ; Normal compilation ; --          ; --                                ;
-; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                      ; --                 ; --          ; --                                ;
-; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                      ; --                 ; --          ; --                                ;
-; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                             ; --                 ; --          ; --                                ;
-; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                             ; --                 ; --          ; --                                ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --                 ; --          ; Top                               ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --                 ; --          ; Top                               ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --                 ; --          ; Top                               ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --                 ; --          ; --                                ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --                 ; --          ; --                                ;
-; REMOVE_DUPLICATE_REGISTERS          ; Off                                    ; On                 ; --          ; --                                ;
-; SPD_FILE                            ; pll250.spd                             ; --                 ; --          ; --                                ;
-; SYNTHESIS_ONLY_QIP                  ; On                                     ; --                 ; --          ; --                                ;
-+-------------------------------------+----------------------------------------+--------------------+-------------+-----------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                           ;
++--------------------------------------------+----------------------------------------+--------------------+-------------+-----------------------------------+
+; Assignment Name                            ; Value                                  ; Default Value      ; Entity Name ; Section Id                        ;
++--------------------------------------------+----------------------------------------+--------------------+-------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID                      ; 91768671294.168427079416880            ; --                 ; --          ; --                                ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST            ; Off                                    ; --                 ; --          ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST            ; Off                                    ; --                 ; --          ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST            ; Off                                    ; --                 ; --          ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST            ; Off                                    ; --                 ; --          ; eda_formal_verification           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST            ; Off                                    ; --                 ; --          ; eda_board_design_symbol           ;
+; FINAL_PLACEMENT_OPTIMIZATION               ; Never                                  ; Automatically      ; --          ; --                                ;
+; FITTER_AGGRESSIVE_ROUTABILITY_OPTIMIZATION ; Never                                  ; Automatically      ; --          ; --                                ;
+; FITTER_EFFORT                              ; Fast Fit                               ; Auto Fit           ; --          ; --                                ;
+; MAX_CORE_JUNCTION_TEMP                     ; 85                                     ; --                 ; --          ; --                                ;
+; MIN_CORE_JUNCTION_TEMP                     ; 0                                      ; --                 ; --          ; --                                ;
+; MISC_FILE                                  ; pll250.cmp                             ; --                 ; --          ; --                                ;
+; MISC_FILE                                  ; pll250_sim/pll250.vo                   ; --                 ; --          ; --                                ;
+; NUM_PARALLEL_PROCESSORS                    ; All                                    ; --                 ; --          ; --                                ;
+; OPTIMIZE_HOLD_TIMING                       ; Off                                    ; All Paths          ; --          ; --                                ;
+; OPTIMIZE_MULTI_CORNER_TIMING               ; Off                                    ; On                 ; --          ; --                                ;
+; OPTIMIZE_POWER_DURING_FITTING              ; Off                                    ; Normal compilation ; --          ; --                                ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS             ; Half Signal Swing                      ; --                 ; --          ; --                                ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS             ; Half Signal Swing                      ; --                 ; --          ; --                                ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS            ; Half Vccio                             ; --                 ; --          ; --                                ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS            ; Half Vccio                             ; --                 ; --          ; --                                ;
+; PARTITION_COLOR                            ; -- (Not supported for targeted family) ; --                 ; --          ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL        ; -- (Not supported for targeted family) ; --                 ; --          ; Top                               ;
+; PARTITION_NETLIST_TYPE                     ; -- (Not supported for targeted family) ; --                 ; --          ; Top                               ;
+; POWER_BOARD_THERMAL_MODEL                  ; None (CONSERVATIVE)                    ; --                 ; --          ; --                                ;
+; POWER_PRESET_COOLING_SOLUTION              ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --                 ; --          ; --                                ;
+; REMOVE_DUPLICATE_REGISTERS                 ; Off                                    ; On                 ; --          ; --                                ;
+; SEED                                       ; 0                                      ; 1                  ; --          ; --                                ;
+; SPD_FILE                                   ; pll250.spd                             ; --                 ; --          ; --                                ;
+; SYNTHESIS_ONLY_QIP                         ; On                                     ; --                 ; --          ; --                                ;
++--------------------------------------------+----------------------------------------+--------------------+-------------+-----------------------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -113,10 +117,10 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 4833 MB             ; 00:00:22                           ;
-; Fitter               ; 00:00:15     ; 1.0                     ; 6131 MB             ; 00:00:24                           ;
-; Assembler            ; 00:00:05     ; 1.0                     ; 4859 MB             ; 00:00:05                           ;
-; Total                ; 00:00:31     ; --                      ; --                  ; 00:00:51                           ;
+; Analysis & Synthesis ; 00:00:18     ; 1.0                     ; 4880 MB             ; 00:00:35                           ;
+; Fitter               ; 00:00:30     ; 1.1                     ; 6260 MB             ; 00:01:10                           ;
+; Assembler            ; 00:00:07     ; 1.0                     ; 4867 MB             ; 00:00:06                           ;
+; Total                ; 00:00:55     ; --                      ; --                  ; 00:01:51                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

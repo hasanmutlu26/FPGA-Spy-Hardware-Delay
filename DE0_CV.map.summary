@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Thu Jan 19 16:04:49 2023
-Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Analysis & Synthesis Status : Successful - Wed May 17 00:00:11 2023
+Quartus Prime Version : 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 Revision Name : DE0_CV
 Top-level Entity Name : DE0_CV
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 0
+Total registers : 404
 Total pins : 67
 Total virtual pins : 0
 Total block memory bits : 0
@@ -13,5 +13,5 @@ Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0
 Total HSSI TX PCSs : 0
 Total HSSI PMA TX Serializers : 0
-Total PLLs : 0
+Total PLLs : 1
 Total DLLs : 0

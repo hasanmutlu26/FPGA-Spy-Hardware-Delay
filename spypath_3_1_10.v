@@ -1,8 +1,12 @@
+// Path to be chained: spypath_3_1
+// The path works as NOT: y
+// Chain amount: 10
+
 module spypath_3_1_10(pathResult, pathInput);
 input pathInput;
 output pathResult;
 
-(* keep = 1 *) wire w0, w1, w2, w3, w4, w5, w6, w7, w8, w9;
+(* keep = 1 *) wire w0, w1, w2, w3, w4, w5, w6, w7, w8;
 
 spypath_3_1 p0(w0, pathInput, 1'b0, 1'b0, 1'b1, 1'b0);
 spypath_3_1 p1(w1, w0, 1'b0, 1'b0, 1'b1, 1'b0);
