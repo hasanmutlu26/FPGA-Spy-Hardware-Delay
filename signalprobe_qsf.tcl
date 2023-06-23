@@ -1,4 +1,4 @@
-# Copyright (C) 2022  Intel Corporation. All rights reserved.
+# Copyright (C) 2023  Intel Corporation. All rights reserved.
 # Your use of Intel Corporation's design tools, logic functions 
 # and other software and tools, and any partner logic 
 # functions, and any output files from any of the foregoing 
@@ -14,9 +14,9 @@
 # https://fpgasoftware.intel.com/eula.
 
 
-# Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+# Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 # File: signalprobe_qsf.tcl
-# Generated on: Thu Jan 19 12:12:38 2023
+# Generated on: Thu Jun 22 11:51:42 2023
 
 # Note: This file contains a Tcl script generated from the Signal Probe Gui.
 #       You can use this script to restore Signal Probes after deleting the DB

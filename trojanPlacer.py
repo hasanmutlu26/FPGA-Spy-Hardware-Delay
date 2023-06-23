@@ -43,8 +43,13 @@ while(True):
         trojanPosition = int(trojanPosition)
     except:
         trojanPosition = 0
+    if(trojanPosition == -1):
+        print("Canceled.")
+        exit()
+        
     if(trojanPosition <= 0 or trojanPosition >= numGates):
-        print("Invalid position.")
+        print("Invalid position. Enter -1 to cancel.")
+
     else:
         break
 

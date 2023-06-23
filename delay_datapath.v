@@ -5,52 +5,91 @@ output pathResult;
 
 wire [31:0] wAddr;
 
-
-//singlepath_1_5n path(pathResult, ~pathInput);
-//singlepath_1_9n path(pathResult, ~pathInput);
+//ro_17n path(pathResult, ~pathInput);
+//ro_17n_100 path(pathResult, pathInput);
+//ro_17n_50 path(pathResult, pathInput);
+//ro_18 path(pathResult, pathInput);
+//ro_18_100 path(pathResult, pathInput);
+//ro_18_50 path(pathResult, pathInput);
+//ro_23n path(pathResult, ~pathInput);
+//ro_23n_50 path(pathResult, pathInput);
+//ro_33n path(pathResult, ~pathInput);
+//ro_33n_100 path(pathResult, pathInput);
+//ro_33n_50 path(pathResult, pathInput);
+//ro_35n path(pathResult, ~pathInput);
+//ro_35n_100 path(pathResult, pathInput);
+//ro_35n_50 path(pathResult, pathInput);
+//singlepath_1 path(pathResult, pathInput);
 //singlepath_1_10 path(pathResult, pathInput);
+//singlepath_1_100 path(pathResult, pathInput);
 //singlepath_1_20 path(pathResult, pathInput);
 //singlepath_1_50 path(pathResult, pathInput);
-//singlepath_1_100 path(pathResult, pathInput);
-
-//singlepath_2_5n path(pathResult, ~pathInput);
+//singlepath_1_5n path(pathResult, ~pathInput);
+//singlepath_1_spy_p15n path(pathResult, ~pathInput);
+//singlepath_1_spy_p15n_100 path(pathResult, pathInput);
+//singlepath_1_spy_p15n_50 path(pathResult, pathInput);
+//singlepath_1_spy_p1n path(pathResult, ~pathInput);
+//singlepath_1_spy_p1n_100 path(pathResult, pathInput);
+//singlepath_1_spy_p1n_50 path(pathResult, pathInput);
+//singlepath_1_spy_p25n path(pathResult, ~pathInput);
+//singlepath_1_spy_p25n_100 path(pathResult, pathInput);
+//singlepath_1_spy_p25n_50 path(pathResult, pathInput);
+//singlepath_1_spy_p36n path(pathResult, ~pathInput);
+//singlepath_1_spy_p36n_100 path(pathResult, pathInput);
+//singlepath_1_spy_p36n_50 path(pathResult, pathInput);
+//singlepath_1_spy_p5n path(pathResult, ~pathInput);
+//singlepath_1_spy_p5n_100 path(pathResult, pathInput);
+//singlepath_1_spy_p5n_50 path(pathResult, pathInput);
+//singlepath_2 path(pathResult, pathInput);
 //singlepath_2_10 path(pathResult, pathInput);
+//singlepath_2_100 path(pathResult, pathInput);
 //singlepath_2_20 path(pathResult, pathInput);
 //singlepath_2_50 path(pathResult, pathInput);
-//singlepath_2_100 path(pathResult, pathInput);
-
-//singlepath_3_5 path(pathResult, pathInput);
+//singlepath_2_5n path(pathResult, ~pathInput);
+//singlepath_2_spy_p15n path(pathResult, ~pathInput);
+//singlepath_2_spy_p15n_100 path(pathResult, pathInput);
+//singlepath_2_spy_p15n_50 path(pathResult, pathInput);
+//singlepath_2_spy_p1n path(pathResult, ~pathInput);
+//singlepath_2_spy_p1n_100 path(pathResult, pathInput);
+//singlepath_2_spy_p1n_50 path(pathResult, pathInput);
+//singlepath_2_spy_p25n path(pathResult, ~pathInput);
+//singlepath_2_spy_p25n_100 path(pathResult, pathInput);
+//singlepath_2_spy_p31n path(pathResult, ~pathInput);
+//singlepath_2_spy_p31n_100 path(pathResult, pathInput);
+//singlepath_2_spy_p5n path(pathResult, ~pathInput);
+//singlepath_2_spy_p5n_100 path(pathResult, pathInput);
+//singlepath_2_spy_p5n_50 path(pathResult, pathInput);
+//singlepath_3 path(pathResult, pathInput);
 //singlepath_3_10 path(pathResult, pathInput);
-//singlepath_3_20 path(pathResult, pathInput);
-//singlepath_3_50 path(pathResult, pathInput);
 //singlepath_3_100 path(pathResult, pathInput);
-
-//spypath_3_1_5n path(pathResult, ~pathInput);
-//spypath_3_1_10 path(pathResult, pathInput);
-//spypath_3_1_20 path(pathResult, pathInput);
-//spypath_3_1_50 path(pathResult, pathInput);
-//spypath_3_1_100 path(pathResult, pathInput);
-
-//spypath_3_2_5n path(pathResult, ~pathInput);
-//spypath_3_2_10 path(pathResult, pathInput);
-//spypath_3_2_20 path(pathResult, pathInput);
-//spypath_3_2_50 path(pathResult, pathInput);
-//spypath_3_2_100 path(pathResult, pathInput);
-
-//not3_33_5n path(pathResult, ~pathInput);
-//not3_33_10 path(pathResult, pathInput);
-//not3_33_20 path(pathResult, pathInput);
-//not3_33_50 path(pathResult, pathInput);
-//not3_33_100 path(pathResult, pathInput);
-
-singlepath_1_50 path(pathResult, pathInput);
-
-
+//singlepath_3_20 path(pathResult, pathInput);
+//singlepath_3_5 path(pathResult, pathInput);
+//singlepath_3_50 path(pathResult, pathInput);
+//singlepath_3_spy_p1 path(pathResult, pathInput);
+//singlepath_3_spy_p15 path(pathResult, pathInput);
+//singlepath_3_spy_p15_100 path(pathResult, pathInput);
+//singlepath_3_spy_p15_50 path(pathResult, pathInput);
+//singlepath_3_spy_p1_100 path(pathResult, pathInput);
+//singlepath_3_spy_p1_50 path(pathResult, pathInput);
+//singlepath_3_spy_p25 path(pathResult, pathInput);
+//singlepath_3_spy_p25_100 path(pathResult, pathInput);
+//singlepath_3_spy_p25_50 path(pathResult, pathInput);
+//singlepath_3_spy_p35 path(pathResult, pathInput);
+//singlepath_3_spy_p35_100 path(pathResult, pathInput);
+//singlepath_3_spy_p35_50 path(pathResult, pathInput);
+//singlepath_3_spy_p45 path(pathResult, pathInput);
+//singlepath_3_spy_p45_100 path(pathResult, pathInput);
+//singlepath_3_spy_p45_50 path(pathResult, pathInput);
+//singlepath_3_spy_p5 path(pathResult, pathInput);
+//singlepath_3_spy_p53 path(pathResult, pathInput);
+//singlepath_3_spy_p53_100 path(pathResult, pathInput);
+//singlepath_3_spy_p53_50 path(pathResult, pathInput);
+//singlepath_3_spy_p5_100 path(pathResult, pathInput);
+//singlepath_3_spy_p5_50 path(pathResult, pathInput);
 
 
 
 _32bit_REG r(result, wAddr, ld, clk);
 _32bit_ADD a(wAddr, result, 32'b0, 1'b1);
-
 
 endmodule

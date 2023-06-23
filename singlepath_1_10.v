@@ -1,3 +1,7 @@
+// Path to be chained: singlepath_1
+// The path works as NOT: y
+// Chain amount: 10
+
 module singlepath_1_10(pathResult, pathInput);
 input pathInput;
 output pathResult;

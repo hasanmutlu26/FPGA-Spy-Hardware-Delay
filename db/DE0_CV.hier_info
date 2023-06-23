@@ -330,365 +330,465 @@ result[28] <= result[28].DB_MAX_OUTPUT_PORT_TYPE
 result[29] <= result[29].DB_MAX_OUTPUT_PORT_TYPE
 result[30] <= result[30].DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= result[31].DB_MAX_OUTPUT_PORT_TYPE
-pathResult <= singlepath_1_50:path.port0
+pathResult <= singlepath_3_spy_p25_50:path.port0
 ld => ld.IN1
 pathInput => pathInput.IN1
 clk => clk.IN1
 
 
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path
-pathResult <= pathResult~buf0.DB_MAX_OUTPUT_PORT_TYPE
-pathInput => pathInput~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p0
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p1
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p2
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p3
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p4
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p5
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p6
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p7
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p8
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p9
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p10
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p11
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p12
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p13
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p14
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p15
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p16
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p17
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p18
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p19
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p20
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p21
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p22
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p23
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p24
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p25
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p26
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p27
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p28
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p29
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p30
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p31
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p32
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p33
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p34
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p35
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p36
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p37
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p38
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p39
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p40
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p41
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p42
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p43
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p44
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p45
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p46
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p47
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p48
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
-
-
-|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_1_50:path|singlepath_plode:p49
-N8076 <= N8076~buf0.DB_MAX_OUTPUT_PORT_TYPE
-N411 => N411~buf0.DATAIN
-VCC => VCC~buf0.DATAIN
-GND => GND~buf0.DATAIN
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path
+pathResult <= singlepath_3_spy_p25:p49.port0
+pathInput => pathInput.IN1
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p0
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p1
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p2
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p3
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p4
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p5
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p6
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p7
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p8
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p9
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p10
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p11
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p12
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p13
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p14
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p15
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p16
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p17
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p18
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p19
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p20
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p21
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p22
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p23
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p24
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p25
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p26
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p27
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p28
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p29
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p30
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p31
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p32
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p33
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p34
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p35
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p36
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p37
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p38
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p39
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p40
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p41
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p42
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p43
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p44
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p45
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p46
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p47
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p48
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
+
+
+|DE0_CV|LowtoHigh:htl|delay_datapath:datapath|singlepath_3_spy_p25_50:path|singlepath_3_spy_p25:p49
+N11334 <= N11328.DB_MAX_OUTPUT_PORT_TYPE
+N251 => N644.DATAIN
+HT_IN1 => HT_IN1~buf0.DATAIN
+HT_IN2 => HT_IN2~buf0.DATAIN
+Vcc => Vcc~buf0.DATAIN
+gnd => gnd~buf0.DATAIN
 
 
 |DE0_CV|LowtoHigh:htl|delay_datapath:datapath|_32bit_REG:r
