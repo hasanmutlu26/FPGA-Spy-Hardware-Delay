@@ -1,2 +1,0 @@
-Info (10281): Verilog HDL Declaration information at singlepath_1.v(3): object "Vcc" differs only in case from object "VCC" in the same scope File: C:/Users/Lenovo/Desktop/FPGA-Spy-Hardware-Delay/singlepath_1.v Line: 3
-Info (10281): Verilog HDL Declaration information at singlepath_1.v(3): object "gnd" differs only in case from object "GND" in the same scope File: C:/Users/Lenovo/Desktop/FPGA-Spy-Hardware-Delay/singlepath_1.v Line: 3
